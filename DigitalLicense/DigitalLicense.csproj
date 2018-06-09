@@ -11,7 +11,6 @@
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
-    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -148,7 +147,4 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 2018.1</PostBuildEvent>
-  </PropertyGroup>
 </Project>
