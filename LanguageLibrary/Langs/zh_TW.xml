@@ -12,16 +12,16 @@
 
 
   <!-- 主窗口 -->
-  <main_窗口名_在线>W10 數位授權 C# [線上]</main_窗口名_在线>
-  <main_窗口名_离线>W10 數位授權 C# [離線]</main_窗口名_离线>
+  <main_窗口名_在线>W10 數位授權 C# [線上模式]</main_窗口名_在线>
+  <main_窗口名_离线>W10 數位授權 C# [離線模式]</main_窗口名_离线>
   <main_系统信息>系統訊息</main_系统信息>
-  <main_产品名称>產品名稱</main_产品名称>
-  <main_类型>類型</main_类型>
-  <main_描述>描述</main_描述>
+  <main_产品名称>產品版本</main_产品名称>
+  <main_类型>系統類型</main_类型>
+  <main_描述>軟體發行版本</main_描述>
   <main_激活ID>啟用ID</main_激活ID>
   <main_部份产品密钥>部份產品金鑰</main_部份产品密钥>
   <main_许可证状态>狀態</main_许可证状态>
-  <main_WU状态>WU狀態</main_WU状态>
+  <main_WU状态>Windows更新服務狀態</main_WU状态>
   <main_安装密钥>安裝金鑰</main_安装密钥>
   <main_界面语言>介面語言</main_界面语言>
   <main_检测>檢驗</main_检测>
