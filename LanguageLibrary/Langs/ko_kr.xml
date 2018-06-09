@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language>
+  <!-- 语言名称 -->
+  <语言名称>한국어</语言名称>
+
+  <!-- 标题 -->
+  <标题_错误>오류</标题_错误>
+  <标题_信息>정보</标题_信息>
+  <标题_警告>경고</标题_警告>
+  <标题_完成>완료</标题_完成>
+  <标题_成功>성공</标题_成功>
+
+
+  <!-- 主窗口 -->
+  <main_窗口名_在线>W10 Digital License C# [Online]</main_窗口名_在线>
+  <main_窗口名_离线>W10 Digital License C# [Offline]</main_窗口名_离线>
+  <main_系统信息>시스템 정보</main_系统信息>
+  <main_产品名称>상품명</main_产品名称>
+  <main_类型>유형</main_类型>
+  <main_描述>설명</main_描述>
+  <main_激活ID>활성화 ID</main_激活ID>
+  <main_部份产品密钥>제품 키의 일부</main_部份产品密钥>
+  <main_许可证状态>라이센스 상태</main_许可证状态>
+  <main_WU状态>WU 상태</main_WU状态>
+  <main_安装密钥>설치 키</main_安装密钥>
+  <main_界面语言>언어</main_界面语言>
+  <main_检测>테스트</main_检测>
+  <main_进度详情>진행 세부 정보</main_进度详情>
+  <main_激活>활성화 </main_激活>
+  <main_退出>종료</main_退出>
+  
+  <!-- 消息 -->
+  <提示_不支持>지원되지 않는 운영 체제 버전, Windows 10 만 지원됩니다.</提示_不支持>
+  <提示_无KEY>이 버전에서 사용할 수있는 내장 키가 없으므로 키를 사용자 정의하십시오!</提示_无KEY>
+  <提示_意外错误>예기치 않은 오류! 오류 메시지:</提示_意外错误>
+  <提示_提取错误>파일 오류 압축을 풉니 다! 오류 메시지:</提示_提取错误>
+  
+
+  <!-- 说明 -->
+  <read_0>지침</read_0>
+  <read_1>1.[활성화] 버튼을 클릭하면 자동으로 디지털 권한 부여가 활성화됩니다.</read_1>
+  <read_2>2.[설치 키]버튼을 클릭하면 키만 설치됩니다.</read_2>
+  <read_3>3.[테스트] 버튼을 클릭하여 시스템 정보와 SKU 값을 확인하십시오.키 텍스트 상자를 비워두면 감지 후 시스템 버전에 해당하는 내장 키가 자동으로 표시됩니다.</read_3>
+  <read_4>4.무음 모드 자동으로 매개 변수 /Q, 를 실행하고 자동 실행이 완료되면 로그 파일이 생성됩니다. C:\W10D.log</read_4>
+  <read_5>5.오른쪽 클릭 메뉴를 추가하여 제품 키를 선택하십시오.</read_5>
+
+  <!--网站链接-->
+  <main_link_text>NsaneForums.com</main_link_text>
+  <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
+  
+  <!-- 右键菜单 -->
+  <右键_选择密钥>선택 키</右键_选择密钥>
+  
+
+  <!-- 信息-->
+  <info_未授权>무면허</info_未授权>
+  <info_已授权>라이센스</info_已授权>
+  <info_初始宽限期>초기 유예 기간</info_初始宽限期>
+  <info_延长宽限期>추가 유예 기간</info_延长宽限期>
+  <info_非正版宽限期>비정품 유예 기간</info_非正版宽限期>
+  <info_通知状态>공고</info_通知状态>
+  <info_未知>상태를 알 수 없음</info_未知>
+  <info_WU_自动延迟>자동 (지연된 시작)</info_WU_自动延迟>
+  <info_WU_自动>자동</info_WU_自动>
+  <info_WU_手动>수동으로</info_WU_手动>
+  <info_WU_禁用>장애인</info_WU_禁用>
+  <info_日志文件名>W10D.log</info_日志文件名>
+  <info_准备> 준비 중 ...</info_准备>
+  <info_安装密钥> 키 설치 :</info_安装密钥>
+  <info_添加注册表> 레지스트리 키 추가 중 ...</info_添加注册表>
+  <info_获取门票> 실행 중 GatherOsState.exe ...</info_获取门票>
+  <info_删除注册表> 레지스트리 키 삭제 중...</info_删除注册表>
+  <info_应用门票> 적용 GenuineTicket.xml...</info_应用门票>
+  <info_激活系统> 시스템 활성화...</info_激活系统>
+  <info_WU_设置手动> Windows Update 서비스를 수동 모드로 설정...</info_WU_设置手动>
+  <info_WU_启动> Windows Update 서비스 시작...</info_WU_启动>
+  <info_WU_启动失败> 다음과 같은 이유로 Windows Update 서비스를 시작할 수 없습니다:</info_WU_启动失败>
+  <info_删除临时文件> 임시 파일 삭제...</info_删除临时文件>
+  <info_完成> 완료되었습니다.</info_完成>
+
+</Language>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language>
+  <!-- 语言名称 -->
+  <语言名称>Español (es_ec)</语言名称>
+
+  <!-- 标题 -->
+  <标题_错误>Error</标题_错误>
+  <标题_信息>Informacion</标题_信息>
+  <标题_警告>Advertencia</标题_警告>
+  <标题_完成>Hecho</标题_完成>
+  <标题_成功>Éxito</标题_成功>
+
+
+  <!-- 主窗口 -->
+  <main_窗口名_在线>W10 Digital License C# [Online]</main_窗口名_在线>
+  <main_窗口名_离线>W10 Digital License C# [Offline]</main_窗口名_离线>
+  <main_系统信息>Información del SO</main_系统信息>
+  <main_产品名称>Producto</main_产品名称>
+  <main_类型>Arquitectura</main_类型>
+  <main_描述>Descripción</main_描述>
+  <main_激活ID>ID. de licencia</main_激活ID>
+  <main_部份产品密钥>Clave parcial</main_部份产品密钥>
+  <main_许可证状态>Estado</main_许可证状态>
+  <main_WU状态>Estado de WU</main_WU状态>
+  <main_安装密钥>Instalar-Clave</main_安装密钥>
+  <main_界面语言>Idioma</main_界面语言>
+  <main_检测>Comprobar</main_检测>
+  <main_进度详情>Detalles del progreso</main_进度详情>
+  <main_激活>ACTIVAR</main_激活>
+  <main_退出>SALIR</main_退出>
+  
+  <!-- 消息 -->
+  <提示_不支持>Versión de SO no compatible, solo Windows 10 es compatible.</提示_不支持>
+  <提示_无KEY>No hay una clave incorporada disponible para esta versión, por favor personalice la clave.</提示_无KEY>
+  <提示_意外错误>Error inesperado!Mensaje de error:</提示_意外错误>
+  <提示_提取错误>Extracción de archivos incorrectos!Mensaje de error:</提示_提取错误>
+  
+
+  <!-- 说明 -->
+  <read_0>Léame：</read_0>
+  <read_1>1.Haga clic en el botón Activar para activar la autorización digital automáticamente.</read_1>
+  <read_2>2.Haga clic en el botón Instalar-CLAVE, solo la CLAVE estára instalada pero no se activará.</read_2>
+  <read_3>3.Botón de verificación Detecta información del sistema y valores de SKU. Si el cuadro de texto CLAVE se deja en blanco, la CLAVE incorporada correspondiente a su versión del sistema se mostrará automáticamente después de la detección.</read_3>
+  <read_4>4.Los parámetros de ejecución silenciosa son /Q. Después de completar la ejecución silenciosa, se generará un archivo de registro. C:\W10D.log</read_4>
+  <read_5>5.Agregar menú con el botón derecho para seleccionar la clave del producto.</read_5>
+
+  <!--网站链接-->
+  <main_link_text>NsaneForums.com</main_link_text>
+  <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
+  
+  <!-- 右键菜单 -->
+  <右键_选择密钥>Seleccionar CLAVE</右键_选择密钥>
+  
+
+  <!-- 信息-->
+  <info_未授权>Sin licencia</info_未授权>
+  <info_已授权>Con licencia</info_已授权>
+  <info_初始宽限期>Período de gracia inicial</info_初始宽限期>
+  <info_延长宽限期>Período de gracia adicional</info_延长宽限期>
+  <info_非正版宽限期>Periodo de gracia no genuino</info_非正版宽限期>
+  <info_通知状态>Notificación</info_通知状态>
+  <info_未知>Estado desconocido</info_未知>
+  <info_WU_自动延迟>RETRASO AUTOMATICO</info_WU_自动延迟>
+  <info_WU_自动>AUTOMATICO</info_WU_自动>
+  <info_WU_手动>MANUAL</info_WU_手动>
+  <info_WU_禁用>Deshabilitado</info_WU_禁用>
+  <info_日志文件名>W10D.log</info_日志文件名>
+  <info_准备> Actualmente preparando...</info_准备>
+  <info_安装密钥> Instalando clave: </info_安装密钥>
+  <info_添加注册表> Agregar clave de registro...</info_添加注册表>
+  <info_获取门票> Ejecutando GatherOsState.exe...</info_获取门票>
+  <info_删除注册表> Eliminar clave de registro...</info_删除注册表>
+  <info_应用门票> Aplicando GenuineTicket.xml...</info_应用门票>
+  <info_激活系统> Activando sistema...</info_激活系统>
+  <info_WU_设置手动> Configurar el servicio Windows Update en manual...</info_WU_设置手动>
+  <info_WU_启动> Iniciando el servicio Windows Update...</info_WU_启动>
+  <info_WU_启动失败>No se puede iniciar el servicio Windows Update porque: </info_WU_启动失败>
+  <info_删除临时文件> Eliminando archivos temporales...</info_删除临时文件>
+  <info_完成> Completo.</info_完成>
+
+</Language>

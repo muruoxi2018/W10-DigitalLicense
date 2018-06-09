@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language>
+  <!-- 语言名称 -->
+  <语言名称>繁體中文</语言名称>
+
+  <!-- 标题 -->
+  <标题_错误>錯誤</标题_错误>
+  <标题_信息>訊息</标题_信息>
+  <标题_警告>警告</标题_警告>
+  <标题_完成>完成</标题_完成>
+  <标题_成功>成功</标题_成功>
+
+
+  <!-- 主窗口 -->
+  <main_窗口名_在线>W10 數位授權 C# [線上]</main_窗口名_在线>
+  <main_窗口名_离线>W10 數位授權 C# [離線]</main_窗口名_离线>
+  <main_系统信息>系統訊息</main_系统信息>
+  <main_产品名称>產品名稱</main_产品名称>
+  <main_类型>類型</main_类型>
+  <main_描述>描述</main_描述>
+  <main_激活ID>啟用ID</main_激活ID>
+  <main_部份产品密钥>部份產品金鑰</main_部份产品密钥>
+  <main_许可证状态>狀態</main_许可证状态>
+  <main_WU状态>WU狀態</main_WU状态>
+  <main_安装密钥>安裝金鑰</main_安装密钥>
+  <main_界面语言>介面語言</main_界面语言>
+  <main_检测>檢驗</main_检测>
+  <main_进度详情>進度細節</main_进度详情>
+  <main_激活>啟用</main_激活>
+  <main_退出>離開</main_退出>
+  
+  <!-- 消息 -->
+  <提示_不支持>不支援的系統版本，僅支援Windows 10。</提示_不支持>
+  <提示_无KEY>沒有內置金鑰可用於此系統版本，請自行輸入金鑰！</提示_无KEY>
+  <提示_意外错误>意外的錯誤！錯誤訊息：</提示_意外错误>
+  <提示_提取错误>解壓文件錯誤！錯誤訊息：</提示_提取错误>
+  
+
+  <!-- 说明 -->
+  <read_0>說明：</read_0>
+  <read_1>1.點擊啟用按鈕自動啟用數位授權。</read_1>
+  <read_2>2.點擊安裝金鑰按鈕，僅安裝金鑰並不啟用數位授權。</read_2>
+  <read_3>3.檢驗按鈕檢驗系統資訊和SKU值，如果金鑰輸入框為空白，檢驗後將自動顯示與系統版本對應的內置金鑰。</read_3>
+  <read_4>4.靜態安裝模式是/Q. 靜態安裝完成後，將建立一個事件記錄檔於 C:\W10D.log</read_4>
+  <read_5>5.新增右鍵單擊選單以選擇產品金鑰。</read_5>
+
+  <!--网站链接-->
+  <main_link_text>NsaneForums.com</main_link_text>
+  <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
+  
+  <!-- 右键菜单 -->
+  <右键_选择密钥>選擇金鑰</右键_选择密钥>
+  
+
+  <!-- 信息-->
+  <info_未授权>未經授權</info_未授权>
+  <info_已授权>已授權</info_已授权>
+  <info_初始宽限期>初始寬限期</info_初始宽限期>
+  <info_延长宽限期>延長寬限期</info_延长宽限期>
+  <info_非正版宽限期>非授權寬限期</info_非正版宽限期>
+  <info_通知状态>通知狀態</info_通知状态>
+  <info_未知>未知狀態</info_未知>
+  <info_WU_自动延迟>自動延遲</info_WU_自动延迟>
+  <info_WU_自动>自動</info_WU_自动>
+  <info_WU_手动>手動</info_WU_手动>
+  <info_WU_禁用>禁用</info_WU_禁用>
+  <info_日志文件名>W10D.log</info_日志文件名>
+  <info_准备> 正在準備...</info_准备>
+  <info_安装密钥> 安裝金鑰：</info_安装密钥>
+  <info_添加注册表> 新增註冊表...</info_添加注册表>
+  <info_获取门票> 執行 GatherOsState.exe...</info_获取门票>
+  <info_删除注册表> 刪除註冊表...</info_删除注册表>
+  <info_应用门票> 套用 GenuineTicket.xml...</info_应用门票>
+  <info_激活系统> 啟用系統...</info_激活系统>
+  <info_WU_设置手动> 將Windows更新服務更改為手動...</info_WU_设置手动>
+  <info_WU_启动> 啟動Windows更新服務...</info_WU_启动>
+  <info_WU_启动失败>無法啟動Windows更新服務，因為：</info_WU_启动失败>
+  <info_删除临时文件> 刪除暫存檔案...</info_删除临时文件>
+  <info_完成> 完成</info_完成>
+
+</Language>
