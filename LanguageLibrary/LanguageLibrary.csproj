@@ -108,7 +108,12 @@
     <EmbeddedResource Include="Langs\zh_tw.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Langs\el_gr.xml" />
+    <EmbeddedResource Include="Langs\el_gr.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Langs\ar_ly.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

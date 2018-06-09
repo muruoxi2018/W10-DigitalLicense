@@ -108,6 +108,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "简体中文",
             "繁體中文",
+            "Arabic",
             "Bosanski",
             "Српски",
             "English",
