@@ -106,7 +106,7 @@ namespace DigitalLicense
             else
                 Language.Set(register.ReadRegeditKey("LangSetting").ToString());
 
-
+            //版本密钥字典初始
             EditionDic_init();
 
             IntPtr wow64Value = IntPtr.Zero;
