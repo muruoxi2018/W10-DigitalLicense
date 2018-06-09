@@ -113,6 +113,7 @@
             "English",
             "Español (es_es)",
             "Español (es_ec)",
+            "Ελληνικά",
             "Français",
             "Italiano",
             "Português",
@@ -334,7 +335,7 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Select_Product_KEY});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(125, 26);
             // 
             // Select_Product_KEY
             // 
@@ -359,7 +360,7 @@
             this.ProfessionalWorkstationN,
             this.ServerRdsh});
             this.Select_Product_KEY.Name = "Select_Product_KEY";
-            this.Select_Product_KEY.Size = new System.Drawing.Size(180, 22);
+            this.Select_Product_KEY.Size = new System.Drawing.Size(124, 22);
             this.Select_Product_KEY.Text = "选择密钥";
             // 
             // Cloud
