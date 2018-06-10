@@ -20,9 +20,12 @@ namespace DigitalLicense
     {
         #region 全局值
         public string[] Args { get; set; }
-        public static string OsProductName { get; set; }
+        public string OsName { get; set; }
         public string OsBuild { get; set; }
-        public object OsDescription { get; set; }
+        public string OsDescription { get; set; }
+        public string OsID { get; set; }
+        public string OsPartialProductKey { get; set; }
+        public string OsLicenseStatus { get; set; }
         public string ProductStatus { get; set; }
         public string WUStatus { get; set; }
 
@@ -237,24 +240,28 @@ namespace DigitalLicense
 
                 Register register = new Register(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion", Register.RegDomain.LocalMachine);
 
-                //产品名称
-                var Name = (from x in new ManagementObjectSearcher("root\\CIMV2", "SELECT Name FROM SoftwareLicensingProduct WHERE PartialProductKey <> null AND ApplicationId='55c92734-d682-4d71-983e-d6ec3f16059f'").Get().Cast<ManagementObject>() select x.GetPropertyValue("Name")).FirstOrDefault();
-                string[] nameArray = Name.ToString().Split(' ');
-                OsProductName = nameArray[1];
+                ManagementScope scope = new ManagementScope(@"\\" + System.Environment.MachineName + @"\root\cimv2");
+                scope.Connect();
+                SelectQuery searchQuery = new SelectQuery("SELECT * FROM SoftwareLicensingProduct WHERE PartialProductKey <> null AND ApplicationID = '55c92734-d682-4d71-983e-d6ec3f16059f'");
+                ManagementObjectSearcher searcherObj = new ManagementObjectSearcher(scope, searchQuery);
+                foreach (ManagementBaseObject mo in searcherObj.Get())
+                {
+                    string[] nameArray = mo["Name"].ToString().Split(' ');
+                    OsName = nameArray[1];//产品名称
+                    string[] desArray = mo["Description"].ToString().Split(' ');
+                    OsDescription = desArray[3];//描述
+                    OsID = mo["ID"].ToString();//激活ID
+                    OsPartialProductKey = mo["PartialProductKey"].ToString();//部份产品密钥
+                    OsLicenseStatus = mo["LicenseStatus"].ToString();//许可状态
+                }
 
                 //版本号
                 string ver = register.ReadRegeditKey("BuildLabEx").ToString();
                 string[] verArray = ver.Split('.');
                 OsBuild = verArray[0] + "." + verArray[1];
 
-                //描述
-                var Description = (from x in new ManagementObjectSearcher("root\\CIMV2", "SELECT Description FROM SoftwareLicensingProduct WHERE PartialProductKey <> null AND ApplicationId='55c92734-d682-4d71-983e-d6ec3f16059f'").Get().Cast<ManagementObject>() select x.GetPropertyValue("Description")).FirstOrDefault();
-                string[] desArray = Description.ToString().Split(' ');
-                OsDescription = desArray[3];
-
                 //许可状态
-                var LicenseStatus = (from x in new ManagementObjectSearcher("root\\CIMV2", "SELECT LicenseStatus FROM SoftwareLicensingProduct WHERE PartialProductKey <> null AND ApplicationId='55c92734-d682-4d71-983e-d6ec3f16059f' AND LicenseIsAddon=False").Get().Cast<ManagementObject>() select x.GetPropertyValue("LicenseStatus")).FirstOrDefault();
-                switch (LicenseStatus.ToString())
+                switch (OsLicenseStatus)
                 {
                     case "0":
                         {
@@ -305,22 +312,20 @@ namespace DigitalLicense
 
                 //将获取的值显示到listView1
                 //1.产品
-                listView1.Items[0].SubItems[1].Text =  OsProductName + " [" + OsBuild + "]";
+                listView1.Items[0].SubItems[1].Text =  OsName + " [" + OsBuild + "]";
                 //2.类型
                 if (Environment.Is64BitOperatingSystem)
                     listView1.Items[1].SubItems[1].Text = "x64";
                 else
                     listView1.Items[1].SubItems[1].Text = "x86";
                 //3.描述
-                listView1.Items[2].SubItems[1].Text = OsDescription.ToString();
+                listView1.Items[2].SubItems[1].Text = OsDescription;
                 //4.激活ID
-                var ID = (from x in new ManagementObjectSearcher("root\\CIMV2", "SELECT ID FROM SoftwareLicensingProduct WHERE PartialProductKey <> null AND ApplicationId='55c92734-d682-4d71-983e-d6ec3f16059f'").Get().Cast<ManagementObject>() select x.GetPropertyValue("ID")).FirstOrDefault();
-                listView1.Items[3].SubItems[1].Text = ID.ToString();
+                listView1.Items[3].SubItems[1].Text = OsID;
                 //5.部份密钥
-                var PartialProductKey = (from x in new ManagementObjectSearcher("root\\CIMV2", "SELECT PartialProductKey FROM SoftwareLicensingProduct WHERE PartialProductKey <> null AND ApplicationId='55c92734-d682-4d71-983e-d6ec3f16059f'").Get().Cast<ManagementObject>() select x.GetPropertyValue("PartialProductKey")).FirstOrDefault();
-                listView1.Items[4].SubItems[1].Text = PartialProductKey.ToString();
+                listView1.Items[4].SubItems[1].Text = OsPartialProductKey;
                 //6.许可状态
-                listView1.Items[5].SubItems[1].Text =  ProductStatus;
+                listView1.Items[5].SubItems[1].Text = ProductStatus;
                 //7.WindowsUpdate状态
                 register.SubKey = @"SYSTEM\CurrentControlSet\Services\wuauserv";
                 string WU  = register.ReadRegeditKey("Start").ToString();
@@ -352,14 +357,14 @@ namespace DigitalLicense
                 //如果KEY文本框为空，显示内置KEY
                 if (key_textBox.Text == "")
                 {
-                    if (editionDic.ContainsKey(OsProductName.ToString()))
+                    if (editionDic.ContainsKey(OsName.ToString()))
                     {
-                        if (OsProductName == "EnterpriseS" && OsBuild.Contains("10240"))
+                        if (OsName == "EnterpriseS" && OsBuild.Contains("10240"))
                             key_textBox.Text = "FWN7H-PF93Q-4GGP8-M8RF3-MDWWW";
-                        else if (OsProductName == "EnterpriseSN" && OsBuild.Contains("10240"))
+                        else if (OsName == "EnterpriseSN" && OsBuild.Contains("10240"))
                             key_textBox.Text = "8V8WN-3GXBH-2TCMG-XHRX3-9766K";
                         else
-                            key_textBox.Text = editionDic[OsProductName.ToString()];
+                            key_textBox.Text = editionDic[OsName.ToString()];
                     }
                     else
                         key_textBox.Text = Language.Default.提示_无KEY;
@@ -540,7 +545,7 @@ namespace DigitalLicense
                 byte[] bs = new byte[exeStream.Length];
                 exeStream.Read(bs, 0, bs.Length);
 
-                if ((OsProductName == "EnterpriseS" && OsBuild.Contains("10240")) || (OsProductName == "EnterpriseSN" && OsBuild.Contains("10240")))
+                if ((OsName == "EnterpriseS" && OsBuild.Contains("10240")) || (OsName == "EnterpriseSN" && OsBuild.Contains("10240")))
                 {
 
                     bs.SetValue((Byte)0x31, 148350);
