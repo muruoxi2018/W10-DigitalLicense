@@ -111,6 +111,7 @@
             "Arabic",
             "Bosanski",
             "Српски",
+            "Čeština",
             "English",
             "Español (es_es)",
             "Español (es_ec)",

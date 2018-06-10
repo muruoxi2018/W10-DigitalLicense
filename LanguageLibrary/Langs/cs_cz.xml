@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language>
+  <!-- 语言名称 -->
+  <语言名称>Čeština</语言名称>
+
+  <!-- 标题 -->
+  <标题_错误>Chyba</标题_错误>
+  <标题_信息>Informace</标题_信息>
+  <标题_警告>Upozornění</标题_警告>
+  <标题_完成>Hotovo</标题_完成>
+  <标题_成功>Provedeno</标题_成功>
+
+
+  <!-- 主窗口 -->
+  <main_窗口名_在线>W10 Digital License C# [Online]</main_窗口名_在线>
+  <main_窗口名_离线>W10 Digital License C# [Offline]</main_窗口名_离线>
+  <main_系统信息>Informace o OS</main_系统信息>
+  <main_产品名称>Produkt</main_产品名称>
+  <main_类型>Architektura</main_类型>
+  <main_描述>Popis</main_描述>
+  <main_激活ID>ID Licence</main_激活ID>
+  <main_部份产品密钥>Klíč produktu</main_部份产品密钥>
+  <main_许可证状态>Status</main_许可证状态>
+  <main_WU状态>WU Status</main_WU状态>
+  <main_安装密钥>Nainstaluj klíč</main_安装密钥>
+  <main_界面语言>Jazyk</main_界面语言>
+  <main_检测>Kontrola</main_检测>
+  <main_进度详情>Podrobný postup pro lamičky z CZT</main_进度详情>
+  <main_激活>Aktivuj</main_激活>
+  <main_退出>Ukončit</main_退出>
+  
+  <!-- 消息 -->
+  <提示_不支持>Nepodporovaná verze OS, podporuje pouze Windows 10.</提示_不支持>
+  <提示_无KEY>Pro tuto edici není dostupný klíč, zadejte jej ručně!</提示_无KEY>
+  <提示_意外错误>Neočekávaná chyba! Podrobnosti:</提示_意外错误>
+  <提示_提取错误>Extrakce souborů selhala! Podrobnosti:</提示_提取错误>
+  
+
+  <!-- 说明 -->
+  <read_0>Čti：</read_0>
+  <read_1>1.Klikni na Aktivuj pokud chceš vytvořit digitální licenci.</read_1>
+  <read_2>2.Klikni na Nainstaluj klíč pokud chceš pouze nainstalovat generický klíč bez vygenerování digitální licence.</read_2>
+  <read_3>3.Klikni na Kontrola pokud chceš načíst informace o systému. Pokud textové pole klíče zůstane prázdné tak po kontrole se zobrazí generický klíč odpovídající nainstalované edici.</read_3>
+  <read_4>4.Pro tiché spuštění zadej parametr /Q. Po dokončení tichého spuštění bude vytvořen soubor s logem. C:\W10D.log</read_4>
+  <read_5>5.Pravým tlačítkem na myši vybereš generický klíč dostupných edic.</read_5>
+
+  <!--网站链接-->
+  <main_link_text>NsaneForums.com</main_link_text>
+  <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
+  
+  <!-- 右键菜单 -->
+  <右键_选择密钥>Vyber klíč</右键_选择密钥>
+  
+
+  <!-- 信息-->
+  <info_未授权>Nelicencováno</info_未授权>
+  <info_已授权>Licencováno</info_已授权>
+  <info_初始宽限期>Počáteční poskytnutá lhůta</info_初始宽限期>
+  <info_延长宽限期>Další poskytnutá lhůta</info_延长宽限期>
+  <info_非正版宽限期>Poskytnutá lhůta pro neoriginální program</info_非正版宽限期>
+  <info_通知状态>Systém Windows je v režimu upozornění</info_通知状态>
+  <info_未知>Stav licence: Neznámý</info_未知>
+  <info_WU_自动延迟>Automaticky (zpožděné spuštění)</info_WU_自动延迟>
+  <info_WU_自动>Automaticky</info_WU_自动>
+  <info_WU_手动>Ručně</info_WU_手动>
+  <info_WU_禁用>Zakázáno</info_WU_禁用>
+  <info_日志文件名>W10D.log</info_日志文件名>
+  <info_准备> Aktuálně se připravuje...</info_准备>
+  <info_安装密钥> Instaluje se klíč: </info_安装密钥>
+  <info_添加注册表> Přidává se klíč v registru...</info_添加注册表>
+  <info_获取门票> Spouští se GatherOsState.exe...</info_获取门票>
+  <info_删除注册表> Maže se klíč v registru...</info_删除注册表>
+  <info_应用门票> Aplikuje se GenuineTicket.xml...</info_应用门票>
+  <info_激活系统> Aktivuje se systém...</info_激活系统>
+  <info_WU_设置手动> Spouštění služby WindowsUpdate se nastavuje na hodnotu Ručne...</info_WU_设置手动>
+  <info_WU_启动> Spouští se služba WindowsUpdate...</info_WU_启动>
+  <info_WU_启动失败>Službu WindowsUpdate nejde spustit, protože: </info_WU_启动失败>
+  <info_删除临时文件> Mažou se dočasné soubory...</info_删除临时文件>
+  <info_完成> Hotovo.</info_完成>
+
+</Language>

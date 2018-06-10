@@ -78,6 +78,7 @@ namespace DigitalLicense
             LangsDic.Add("한국어", "ko_kr");
             LangsDic.Add("Ελληνικά", "el_gr");
             LangsDic.Add("Arabic", "ar_ly");
+            LangsDic.Add("Čeština", "cs_cz");
         }
         #endregion
 
