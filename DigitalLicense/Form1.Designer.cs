@@ -103,7 +103,9 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownHeight = 150;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.IntegralHeight = false;
             this.comboBox1.ItemHeight = 23;
             this.comboBox1.Items.AddRange(new object[] {
             "简体中文",
