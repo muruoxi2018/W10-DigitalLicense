@@ -80,7 +80,7 @@ namespace DigitalLicense
             LangsDic.Add("Tiếng Việt", "vi_vn");
             LangsDic.Add("한국어", "ko_kr");
             LangsDic.Add("Ελληνικά", "el_gr");
-            LangsDic.Add("Arabic", "ar_ly");
+            LangsDic.Add("العربية", "ar_ly");
             LangsDic.Add("Čeština", "cs_cz");
             LangsDic.Add("Română", "ro_ro");
             LangsDic.Add("Nederlands", "nl_nl");
