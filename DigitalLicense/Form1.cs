@@ -29,7 +29,7 @@ namespace DigitalLicense
         public string ProductStatus { get; set; }
         public string WUStatus { get; set; }
 
-        public string soft_ver = "v2.7.7";
+        public string soft_ver = "v2.7.8";
 
         public string cmdout;
 
@@ -82,6 +82,8 @@ namespace DigitalLicense
             LangsDic.Add("Ελληνικά", "el_gr");
             LangsDic.Add("Arabic", "ar_ly");
             LangsDic.Add("Čeština", "cs_cz");
+            LangsDic.Add("Română", "ro_ro");
+            LangsDic.Add("Nederlands", "nl_nl");
         }
         #endregion
 

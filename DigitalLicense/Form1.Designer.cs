@@ -118,9 +118,11 @@
             "Ελληνικά",
             "Français",
             "Italiano",
+            "Nederlands",
             "Português",
             "Polish",
             "Русский RU",
+            "Română",
             "Tiếng Việt",
             "한국어"});
             this.comboBox1.Location = new System.Drawing.Point(94, 205);

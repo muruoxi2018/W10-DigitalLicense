@@ -120,5 +120,11 @@
   <ItemGroup>
     <EmbeddedResource Include="Langs\cs_cz.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Langs\ro_ro.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Langs\nl_nl.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
