@@ -84,6 +84,7 @@ namespace DigitalLicense
             LangsDic.Add("Čeština", "cs_cz");
             LangsDic.Add("Română", "ro_ro");
             LangsDic.Add("Nederlands", "nl_nl");
+            LangsDic.Add("Shqip", "sq_al");
         }
         #endregion
 
