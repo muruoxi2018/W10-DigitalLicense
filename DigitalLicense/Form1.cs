@@ -132,7 +132,6 @@ namespace DigitalLicense
 
             //添加鼠标右键事件
             AddMenuEvents(contextMenuStrip1);
-            saveTicketCheckBox.Checked = true;
 
             //如果是WIN10
             if (Environment.OSVersion.ToString().Contains("10.0."))
