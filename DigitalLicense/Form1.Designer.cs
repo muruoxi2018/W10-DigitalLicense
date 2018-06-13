@@ -113,6 +113,7 @@
             "Bosanski",
             "Српски",
             "Čeština",
+            "Deutsch",
             "English",
             "Español",
             "Español (es_es)",

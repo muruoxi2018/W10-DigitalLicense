@@ -43,6 +43,7 @@
   <read_3>3.Butoni KONTROLLO zbulon informacionin e sistemit dhe vlerat SKU. Nëse kutia e tekstit KEY është lënë bosh, KEY-i i integruar që korrespondon me versionin e sistemit do të shfaqet automatikisht pas zbulimit.</read_3>
   <read_4>4.Parametrat e ekzekutimit të heshtur janë /Q. Pasi ekzekutimi i heshtur është i plotë, do të gjenerohet një skedar log. C:\W10D.log</read_4>
   <read_5>5.Shtoni menunë e djathtë të klikimit për të zgjedhur produktin KEY.</read_5>
+  <read_6>6.Për Edicionin e ProfessionalEducation(N), Ju lutemi futni manualisht vlerën SKU 164(165) ose zgjidhni atë në menunë e klikimit të djathtë. Vlera automatike e zbulimit mund të jetë 48.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

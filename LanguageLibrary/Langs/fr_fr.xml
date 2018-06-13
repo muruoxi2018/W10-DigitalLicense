@@ -43,6 +43,7 @@
   <read_3>3.Cliquez sur le bouton [Test] pour vérifier les informations sur le système et les valeurs SKU. Si la zone de texte de clé est laissée vide, la clé intégrée correspondant à la version de votre système est automatiquement affichée après la détection.</read_3>
   <read_4>4.Exécute silencieusement le paramètre /Q. Lorsque l'exécution silencieuse est terminée, un fichier journal est généré. C:\W10D.log</read_4>
   <read_5>5.Ajoutez le menu contextuel pour sélectionner la clé de produit.</read_5>
+  <read_6>6.Pour l'édition ProfessionalEducation(N), entrez manuellement la valeur SKU 164(165) ou sélectionnez-la dans le menu contextuel. La valeur de détection automatique pourrait être 48.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

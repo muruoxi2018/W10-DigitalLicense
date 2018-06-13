@@ -43,6 +43,7 @@
   <read_3>3.Check button Detects system information and SKU values. If the KEY text box is left blank, the built-in KEY corresponding to your system version will be automatically displayed after detection.</read_3>
   <read_4>4.Silent execution parameters is /Q. After the silent execution is complete, a log file will be generated. C:\W10D.log</read_4>
   <read_5>5.Add right-click menu to select product KEY.</read_5>
+  <read_6>6.For the ProfessionalEducation(N) Edition, Please manually enter the SKU value 164(165) or select it in right-click menu. The automatic detection value could be 48.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

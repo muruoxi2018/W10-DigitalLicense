@@ -43,6 +43,7 @@
   <read_3>3. El botón COMPROBAR detecta la información del sistema y los valores SKU. Si el cuadro de texto CLAVE está en blanco, la CLAVE incorporada correspondiente a su versión del sistema se mostrará automáticamente después de la detección.</read_3>
   <read_4>4. El parámetro de ejecución silenciosa es: /Q. Una vez completada la ejecución silenciosa, se generará un archivo log. C:\10D.log</read_4>
   <read_5>5. Agregado menú contextual para seleccionar la CLAVE de producto.</read_5>
+  <read_6>6. Para ProfessionalEducation(N) Edition, ingrese manualmente el SKU 164(165) o selecciónelo en el menú contextual. El valor de detección automática podría ser 48.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

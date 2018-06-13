@@ -43,6 +43,7 @@
   <read_3>3.Butonul VERIFICĂ detectează informațiile despre sistem și valorile SKU. Dacă cheia nu este completată, cheia încorporată, corespunzătoare versiunii sistemului dvs. va fi afișată automat, după detectare.</read_3>
   <read_4>4.Prametrii de execuție silențioasă sunt /Q. După terminarea executării silențioase, va fi generat un fișier de tip log. C:\W10D.log</read_4>
   <read_5>5.Faceți clic dreapta pt. a selecta cheia.</read_5>
+  <read_6>6.Pentru ediția ProfessionalEducation(N), introduceți manual valoarea SKU 164(165) sau selectați-o în meniul cu clic dreapta. Valoarea de detecție automată ar putea fi 48.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

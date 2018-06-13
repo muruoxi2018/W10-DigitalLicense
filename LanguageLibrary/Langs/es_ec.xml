@@ -43,7 +43,8 @@
   <read_3>3.El botón de verificar Detecta la información del sistema y el valor SKU. Si el cuadro de texto CLAVE se deja en blanco, la CLAVE incorporada correspondiente a su versión del sistema se mostrará automáticamente después de la detección.</read_3>
   <read_4>4.Los parámetros de ejecución silenciosa son /Q. Después de completar la ejecución silenciosa, se generará un archivo de registro en. C:\W10D.log</read_4>
   <read_5>5.Agregar menú mediante clic del botón derecho sobre la ventana Información del Sistema Operativo para seleccionar la clave del producto.</read_5>
-
+  <read_6>6. Para ProfessionalEducation(N) Edition, ingrese manualmente el SKU 164(165) o selecciónelo en el menú contextual. El valor de detección automática podría ser 48.</read_6>
+  
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
   <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>

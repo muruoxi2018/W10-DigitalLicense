@@ -43,6 +43,7 @@
   <read_3>3.Controleknop Detecteert systeeminformatie en SKU-waarden. Als het KEY-tekstvak leeg is, wordt de ingebouwde KEY die overeenkomt met uw systeemversie automatisch weergegeven na detectie.</read_3>
   <read_4>4.Stille uitvoeringsparameters is /Q. Nadat de stille uitvoering is voltooid, wordt een logbestand gegenereerd. C:\W10D.log</read_4>
   <read_5>5.Voeg het rechtermuisklik menu toe om de productsleutel te selecteren.</read_5>
+  <read_6>6.Voor de ProfessionalEducation(N) -editie, voer de SKU-waarde 164(165) handmatig in of selecteer deze in het rechtsklikmenu. De automatische detectiewaarde kan 48 zijn.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

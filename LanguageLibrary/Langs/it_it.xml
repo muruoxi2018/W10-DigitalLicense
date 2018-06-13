@@ -36,7 +36,8 @@
   <read_2>2.Clicca su Installa-KEY, Verrà installata soltanto la KEY, il sistema non verrà attivato.</read_2>
   <read_3>3.Il tasto CONTROLLO rileva le informazioni di sistema ed il valore dello SKU. Se lo spazio KEY rimane vuoto, la chive predefinita KEY corrisponde con il vostro sistema e verrà automaticamente visualizzata dopo il rilevamento.</read_3>
   <read_4>4.Il parametro di esecuzione silente è /Q. Quando l'esecuzione silente sarà completata, un file di log verrà generato nel percorso C:\W10D.log</read_4>
-  <read_5>Inserito menu tramite tasto destro del mouse per scegliere il product KEY.</read_5>
+  <read_5>5.Inserito menu tramite tasto destro del mouse per scegliere il product KEY.</read_5>
+  <read_6>6.Per ProfessionalEducation(N) Edition, inserire manualmente il valore SKU 164(165) o selezionarlo nel menu di scelta rapida. Il valore di rilevamento automatico potrebbe essere 48.</read_6>
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
   <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
