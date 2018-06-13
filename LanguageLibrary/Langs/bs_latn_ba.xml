@@ -45,7 +45,7 @@
   <read_3>3.Dugme PROVJERA detektuje podatke o sistemu i SKU vrijednosti. Ako je polje za ključ ostavljeno prazno, sadržani ključ za vašu verziju sistema biće automatski prikazan nakon detekcije.</read_3>
   <read_4>4.Parametar za tiho pokretanje je /Q. Nakon tihog pokretanja, log datoteka je kreirana na lokaciji: C:\W10D.log</read_4>
   <read_5>5.Upotrijebite desni klik na interfejsu programa da odaberete ključ proizvoda.</read_5>
-  <read_6>6.Ulaznice se nalaze u C:\GenuineTicket.xml, Kada ponovo instalirate sistem, stavite ga u sljedeći direktorijum(C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), Zatim ponovo pokrenite računar.</read_6>
+  <read_6>6.Ulaznice se nalaze u C:\GenuineTicket.xml</read_6>
   
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

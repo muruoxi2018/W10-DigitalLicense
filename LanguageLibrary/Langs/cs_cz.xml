@@ -45,7 +45,7 @@
   <read_3>3.Klikni na Kontrola pokud chceš načíst informace o systému. Pokud textové pole klíče zůstane prázdné tak po kontrole se zobrazí generický klíč odpovídající nainstalované edici.</read_3>
   <read_4>4.Pro tiché spuštění zadej parametr /Q. Po dokončení tichého spuštění bude vytvořen soubor s logem. C:\W10D.log</read_4>
   <read_5>5.Pravým tlačítkem na myši vybereš generický klíč dostupných edic.</read_5>
-  <read_6>6.Uložené vstupenky jsou v C:\GenuineTicket.xml, a při příštím přeinstalaci systému jej vložte do následujícího adresáře(C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), Potom restartujte počítač.</read_6>
+  <read_6>6.Uložené vstupenky jsou v C:\GenuineTicket.xml</read_6>
  
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

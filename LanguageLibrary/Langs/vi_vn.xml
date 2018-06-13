@@ -45,7 +45,7 @@
   <read_3>3.Nếu hộp văn bản KEY được để trống, nhấn vào nút KIỂM TRA sẽ phát hiện thông tin hệ thống và giá trị SKU. Phím tích hợp KEY tương ứng với phiên bản hệ thống của bạn sẽ tự động được hiển thị sau khi phát hiện.</read_3>
   <read_4>4.Thông số thực hiện ngầm là /Q. Sau khi hoàn tất thực hiện ngầm, một tệp nhật ký sẽ được tạo. C:\W10D.log</read_4>
   <read_5>5.Thêm menu chuột phải để chọn KEY của sản phẩm.</read_5>
-  <read_6>6.Vé đã lưu tại C:\GenuineTicket.xml. Khi bạn cài đặt lại hệ thống vào lần sau, hãy đặt nó vào thư mục sau (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), Sau đó khởi động lại máy tính.</read_6>
+  <read_6>6.Vé đã lưu tại C:\GenuineTicket.xml</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

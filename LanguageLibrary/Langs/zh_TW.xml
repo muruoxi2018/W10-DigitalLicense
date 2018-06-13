@@ -44,7 +44,7 @@
   <read_3>3.檢驗按鈕檢驗系統資訊和SKU值，如果金鑰輸入框為空白，檢驗後將自動顯示與系統版本對應的內置金鑰。</read_3>
   <read_4>4.靜態安裝模式是/Q. 靜態安裝完成後，將建立一個事件記錄檔於 C:\W10D.log</read_4>
   <read_5>5.新增右鍵單擊選單以選擇產品金鑰。</read_5>
-  <read_6>6.保存的票證在C:\GenuineTicket.xml，在你下一次重裝系統的時候，把它放到以下目錄(C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), 並重新啟動計算機。</read_6>
+  <read_6>6.存儲的票證在 C:\GenuineTicket.xml</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

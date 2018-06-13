@@ -45,7 +45,7 @@
   <read_3>3. Der "Prüfen" Knopf erkennt die Systeminformationen und SKU Werte automatisch. Wenn das Key Feld leer gelassen wird, wird ein zu deinem System passender eingebauter Key nach der Erkennung automatisch angezeigt.</read_3>
   <read_4>4. Der Parameter für die stille Ausührung ist /Q. Nachdem die stille Ausführung abgeschlossen ist wird ein Logfile erstellt: C:\W10D.log</read_4>
   <read_5>5. Rechts-Klick Menü zur Auswahl des Produktkeys verfügbar.</read_5>
-  <read_6>6. Gespeicherte Tickets befinden sich in C:\GenuineTicket.xml, Wenn Sie das System neu installieren, legen Sie es in das folgende Verzeichnis (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) und starten Sie Ihren Computer neu.</read_6>
+  <read_6>6. Gespeicherte Tickets befinden sich in C:\GenuineTicket.xml</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

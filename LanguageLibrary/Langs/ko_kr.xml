@@ -44,7 +44,7 @@
   <read_3>3.[테스트] 버튼을 클릭하여 시스템 정보와 SKU 값을 확인하십시오.키 텍스트 상자를 비워두면 감지 후 시스템 버전에 해당하는 내장 키가 자동으로 표시됩니다.</read_3>
   <read_4>4.무음 모드 자동으로 매개 변수 /Q, 를 실행하고 자동 실행이 완료되면 로그 파일이 생성됩니다. C:\W10D.log</read_4>
   <read_5>5.오른쪽 클릭 메뉴를 추가하여 제품 키를 선택하십시오.</read_5>
-  <read_6>6.저장된 티켓은 C:\GenuineTicket.xml에 있습니다. 다음 번에 시스템을 다시 설치할 때 다음 디렉토리 (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\)에 넣고 컴퓨터를 다시 시작하십시오.</read_6>
+  <read_6>6.저장된 티켓은 C:\GenuineTicket.xml에 있습니다</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>

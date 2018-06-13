@@ -45,7 +45,7 @@
   <read_3>3.Przycisk Sprawdź pobiera informacje o systemie oraz wartości SKU. Jeśli pole KLUCZ jest puste, zostanie zainstalowany domyślny, wbudowany w aplikację klucz, odpowiadający wyświetlanej wersji systemu.</read_3>
   <read_4>4.Przełącznik /Q odpowiada za pracę w tle. Po zakończeniu pracy w tle generowany jest plik log dostępny w ścieżce: C:\W10D.log</read_4>
   <read_5>5.Prawy przycisk myszy pozwala na wybranie klucza produktu w zależności od wersji systemu.</read_5>
-  <read_6>6.Zapisane bilety znajdują się w C:\GenuineTicket.xml Po ponownym zainstalowaniu systemu umieść go w następującym katalogu (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) i uruchom ponownie komputer.</read_6>
+  <read_6>6.Zapisane bilety znajdują się w C:\GenuineTicket.xml</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
