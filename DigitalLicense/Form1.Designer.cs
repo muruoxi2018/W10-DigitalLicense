@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.saveTicketCheckBox = new MetroFramework.Controls.MetroCheckBox();
             this.lang_Label = new MetroFramework.Controls.MetroLabel();
             this.comboBox1 = new MetroFramework.Controls.MetroComboBox();
             this.listView1 = new System.Windows.Forms.ListView();
@@ -75,6 +76,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.saveTicketCheckBox);
             this.groupBox1.Controls.Add(this.lang_Label);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.listView1);
@@ -91,6 +93,16 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "系统信息";
+            // 
+            // saveTicketCheckBox
+            // 
+            this.saveTicketCheckBox.AutoSize = true;
+            this.saveTicketCheckBox.Location = new System.Drawing.Point(6, 182);
+            this.saveTicketCheckBox.Name = "saveTicketCheckBox";
+            this.saveTicketCheckBox.Size = new System.Drawing.Size(75, 15);
+            this.saveTicketCheckBox.TabIndex = 7;
+            this.saveTicketCheckBox.Text = "保存门票";
+            this.saveTicketCheckBox.UseSelectable = true;
             // 
             // lang_Label
             // 
@@ -178,7 +190,7 @@
             // 
             // 
             this.key_textBox.CustomButton.Image = null;
-            this.key_textBox.CustomButton.Location = new System.Drawing.Point(282, 1);
+            this.key_textBox.CustomButton.Location = new System.Drawing.Point(194, 1);
             this.key_textBox.CustomButton.Name = "";
             this.key_textBox.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.key_textBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -187,7 +199,7 @@
             this.key_textBox.CustomButton.UseSelectable = true;
             this.key_textBox.CustomButton.Visible = false;
             this.key_textBox.Lines = new string[0];
-            this.key_textBox.Location = new System.Drawing.Point(6, 178);
+            this.key_textBox.Location = new System.Drawing.Point(94, 178);
             this.key_textBox.MaxLength = 32767;
             this.key_textBox.Name = "key_textBox";
             this.key_textBox.PasswordChar = '\0';
@@ -196,7 +208,7 @@
             this.key_textBox.SelectionLength = 0;
             this.key_textBox.SelectionStart = 0;
             this.key_textBox.ShortcutsEnabled = true;
-            this.key_textBox.Size = new System.Drawing.Size(304, 23);
+            this.key_textBox.Size = new System.Drawing.Size(216, 23);
             this.key_textBox.TabIndex = 2;
             this.key_textBox.UseSelectable = true;
             this.key_textBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -556,6 +568,7 @@
         private MetroFramework.Controls.MetroLabel lang_Label;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ToolStripMenuItem ServerRdsh;
+        private MetroFramework.Controls.MetroCheckBox saveTicketCheckBox;
     }
 }
 

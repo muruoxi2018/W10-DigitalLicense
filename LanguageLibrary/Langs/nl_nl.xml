@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Nederlands</语言名称>
+  <!--荷兰语-->
 
   <!-- 标题 -->
   <标题_错误>Fout</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>WU Status</main_WU状态>
   <main_安装密钥>Installatie-Sleutel</main_安装密钥>
   <main_界面语言>Taal</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>Controle</main_检测>
   <main_进度详情>Voortgang Details</main_进度详情>
   <main_激活>ACTIVEER</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3.Controleknop Detecteert systeeminformatie en SKU-waarden. Als het KEY-tekstvak leeg is, wordt de ingebouwde KEY die overeenkomt met uw systeemversie automatisch weergegeven na detectie.</read_3>
   <read_4>4.Stille uitvoeringsparameters is /Q. Nadat de stille uitvoering is voltooid, wordt een logbestand gegenereerd. C:\W10D.log</read_4>
   <read_5>5.Voeg het rechtermuisklik menu toe om de productsleutel te selecteren.</read_5>
-  <read_6>6.Voor de ProfessionalEducation(N) -editie, voer de SKU-waarde 164(165) handmatig in of selecteer deze in het rechtsklikmenu. De automatische detectiewaarde kan 48 zijn.</read_6>
+  <read_6>6.Opgeslagen tickets zijn in C:\GenuineTicket.xml. Wanneer u uw systeem opnieuw installeert, plaatst u het in de volgende map (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) en start u uw computer opnieuw op.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥> Sleutel installeren: </info_安装密钥>
   <info_添加注册表> Registersleutel toevoegen...</info_添加注册表>
   <info_获取门票> Uitvoeren GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Bewaar het ticket in C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Registersleutel verwijderen...</info_删除注册表>
   <info_应用门票> Toepassing van het authenticiteitsbewijs.xml...</info_应用门票>
   <info_激活系统> Systeem activering...</info_激活系统>

@@ -24,6 +24,7 @@
   <main_WU状态>WU Status</main_WU状态>
   <main_安装密钥>Clé d'installation</main_安装密钥>
   <main_界面语言>Langue</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>Test</main_检测>
   <main_进度详情>Détails de la progression</main_进度详情>
   <main_激活>Activer</main_激活>
@@ -43,7 +44,7 @@
   <read_3>3.Cliquez sur le bouton [Test] pour vérifier les informations sur le système et les valeurs SKU. Si la zone de texte de clé est laissée vide, la clé intégrée correspondant à la version de votre système est automatiquement affichée après la détection.</read_3>
   <read_4>4.Exécute silencieusement le paramètre /Q. Lorsque l'exécution silencieuse est terminée, un fichier journal est généré. C:\W10D.log</read_4>
   <read_5>5.Ajoutez le menu contextuel pour sélectionner la clé de produit.</read_5>
-  <read_6>6.Pour l'édition ProfessionalEducation(N), entrez manuellement la valeur SKU 164(165) ou sélectionnez-la dans le menu contextuel. La valeur de détection automatique pourrait être 48.</read_6>
+  <read_6>6.Les tickets sauvegardés sont dans C:\GenuineTicket.xml, Lorsque vous réinstallez votre système, placez-le dans le répertoire suivant (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) et redémarrez votre ordinateur.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +71,7 @@
   <info_安装密钥> Installation de la clé:</info_安装密钥>
   <info_添加注册表> Ajouter une clé de registre...</info_添加注册表>
   <info_获取门票> Exécuter GatherOsState.exe ...</info_获取门票>
+  <info_保存门票>Les billets sont enregistrés dans C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Suppression de la clé de registre...</info_删除注册表>
   <info_应用门票> Appliquer GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Système d'activation...</info_激活系统>

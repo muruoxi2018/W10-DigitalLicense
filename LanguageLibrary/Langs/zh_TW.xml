@@ -24,6 +24,7 @@
   <main_WU状态>Windows更新服務狀態</main_WU状态>
   <main_安装密钥>安裝金鑰</main_安装密钥>
   <main_界面语言>介面語言</main_界面语言>
+  <main_保存门票>存儲票證</main_保存门票>
   <main_检测>檢驗</main_检测>
   <main_进度详情>進度細節</main_进度详情>
   <main_激活>啟用</main_激活>
@@ -43,7 +44,7 @@
   <read_3>3.檢驗按鈕檢驗系統資訊和SKU值，如果金鑰輸入框為空白，檢驗後將自動顯示與系統版本對應的內置金鑰。</read_3>
   <read_4>4.靜態安裝模式是/Q. 靜態安裝完成後，將建立一個事件記錄檔於 C:\W10D.log</read_4>
   <read_5>5.新增右鍵單擊選單以選擇產品金鑰。</read_5>
-  <read_6>6.對於ProfessionalEducation(N)版本，請手動輸入SKU值164(165)，自動檢測的值可能是48。</read_6>
+  <read_6>6.保存的票證在C:\GenuineTicket.xml，在你下一次重裝系統的時候，把它放到以下目錄(C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), 並重新啟動計算機。</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +71,7 @@
   <info_安装密钥> 安裝金鑰：</info_安装密钥>
   <info_添加注册表> 新增註冊表...</info_添加注册表>
   <info_获取门票> 執行 GatherOsState.exe...</info_获取门票>
+  <info_保存门票>保存票證到 C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> 刪除註冊表...</info_删除注册表>
   <info_应用门票> 套用 GenuineTicket.xml...</info_应用门票>
   <info_激活系统> 啟用系統...</info_激活系统>

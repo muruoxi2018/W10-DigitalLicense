@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Čeština</语言名称>
+  <!--捷克语-->
 
   <!-- 标题 -->
   <标题_错误>Chyba</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>WU Status</main_WU状态>
   <main_安装密钥>Nainstaluj klíč</main_安装密钥>
   <main_界面语言>Jazyk</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>Kontrola</main_检测>
   <main_进度详情>Podrobný postup pro lamičky z CZT</main_进度详情>
   <main_激活>Aktivuj</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3.Klikni na Kontrola pokud chceš načíst informace o systému. Pokud textové pole klíče zůstane prázdné tak po kontrole se zobrazí generický klíč odpovídající nainstalované edici.</read_3>
   <read_4>4.Pro tiché spuštění zadej parametr /Q. Po dokončení tichého spuštění bude vytvořen soubor s logem. C:\W10D.log</read_4>
   <read_5>5.Pravým tlačítkem na myši vybereš generický klíč dostupných edic.</read_5>
-  <read_6>6.Pro verzi ProfessionalEducation(N) ručně zadejte hodnotu SKU 164(165) nebo ji vyberte v nabídce pravým tlačítkem myši. Hodnota automatické detekce může být 48.</read_6>
+  <read_6>6.Uložené vstupenky jsou v C:\GenuineTicket.xml, a při příštím přeinstalaci systému jej vložte do následujícího adresáře(C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), Potom restartujte počítač.</read_6>
  
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥> Instaluje se klíč: </info_安装密钥>
   <info_添加注册表> Přidává se klíč v registru...</info_添加注册表>
   <info_获取门票> Spouští se GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Uložte jízdenku do C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Maže se klíč v registru...</info_删除注册表>
   <info_应用门票> Aplikuje se GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Aktivuje se systém...</info_激活系统>

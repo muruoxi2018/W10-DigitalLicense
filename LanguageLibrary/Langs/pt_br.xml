@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Português</语言名称>
+  <!--葡萄牙语-->
 
   <!-- 标题 -->
   <标题_错误>Erro</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>Status do WU</main_WU状态>
   <main_安装密钥>Instalar-KEY</main_安装密钥>
   <main_界面语言>Linguagem</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>CHECAR</main_检测>
   <main_进度详情>Detalhes do progresso</main_进度详情>
   <main_激活>ATIVAR</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3.O Botão Checar detecta as informações do sistema e os valores SKU. Se o campo Chave de produto estiver em branco, a Chave de produto embutida correspondente à versão do seu sistema será mostrada automaticamente após a detecção.</read_3>
   <read_4>4.O parâmetro de execução para rodar o programa silenciosamente é /Q. Após a execução silenciosa estiver completa, um arquivo de log será gerado. C:\W10D.log</read_4>
   <read_5>5.Clique com o lado direito para selecionar a chave de produto.</read_5>
-  <read_6>6.Para a ProfessionalEducation(N) Edition, insira manualmente o valor de SKU 164(165) ou selecione-o no menu do botão direito do mouse. O valor de detecção automática pode ser 48.</read_6>
+  <read_6>6.Tickets salvos em C:\GenuineTicket.xml, Quando você reinstalar o sistema, coloque-o no seguinte diretório (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) e reinicie o computador.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥>Instalando Chave:</info_安装密钥>
   <info_添加注册表>Adicionando chaves de registro...</info_添加注册表>
   <info_获取门票>Executando GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Salve o ticket para C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表>Deletando Chave de registro...</info_删除注册表>
   <info_应用门票>Aplicando GenuineTicket.xml...</info_应用门票>
   <info_激活系统>Ativando sistema...</info_激活系统>

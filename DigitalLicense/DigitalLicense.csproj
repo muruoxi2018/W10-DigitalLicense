@@ -150,8 +150,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="agc.dll" />
-    <EmbeddedResource Include="agc.exe" />
+    <EmbeddedResource Include="slc.dll" />
+    <EmbeddedResource Include="gatherosstate.exe" />
     <Content Include="ICON.ico" />
   </ItemGroup>
   <ItemGroup>

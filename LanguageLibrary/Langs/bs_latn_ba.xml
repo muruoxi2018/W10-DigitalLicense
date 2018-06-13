@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Bosanski</语言名称>
+  <!--波斯尼亚语-->
 
   <!-- 标题 -->
   <标题_错误>Greška</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>WU Status</main_WU状态>
   <main_安装密钥>Instaliraj ključ</main_安装密钥>
   <main_界面语言>Jezik</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>PROVJERA</main_检测>
   <main_进度详情>Detalji o progresu</main_进度详情>
   <main_激活>AKTIVIRAJ</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3.Dugme PROVJERA detektuje podatke o sistemu i SKU vrijednosti. Ako je polje za ključ ostavljeno prazno, sadržani ključ za vašu verziju sistema biće automatski prikazan nakon detekcije.</read_3>
   <read_4>4.Parametar za tiho pokretanje je /Q. Nakon tihog pokretanja, log datoteka je kreirana na lokaciji: C:\W10D.log</read_4>
   <read_5>5.Upotrijebite desni klik na interfejsu programa da odaberete ključ proizvoda.</read_5>
-  <read_6>6.Za ProfessionalEducation(N) izdanje, ručno unesite vrednost SKU 164(165) ili ga izaberite u meniju desnim tasterom miša. Automatska detekcija može biti 48.</read_6>
+  <read_6>6.Ulaznice se nalaze u C:\GenuineTicket.xml, Kada ponovo instalirate sistem, stavite ga u sljedeći direktorijum(C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), Zatim ponovo pokrenite računar.</read_6>
   
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥> Instaliranje ključa: </info_安装密钥>
   <info_添加注册表> Dodavanje Registry podataka...</info_添加注册表>
   <info_获取门票> Pokretanje GatherOsState.exe...</info_获取门票>
+    <info_保存门票>Ulaznice sačuvati u C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Brisanje Registry podataka...</info_删除注册表>
   <info_应用门票> Primjena GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Aktiviranje sistema...</info_激活系统>

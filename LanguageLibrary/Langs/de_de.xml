@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Deutsch</语言名称>
+  <!--德语-->
 
   <!-- 标题 -->
   <标题_错误>Fehler</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>WU Status</main_WU状态>
   <main_安装密钥>Key installieren</main_安装密钥>
   <main_界面语言>Sprache</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>PRÜFEN</main_检测>
   <main_进度详情>Fortschritt-Details</main_进度详情>
   <main_激活>AKTIVIEREN</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3. Der "Prüfen" Knopf erkennt die Systeminformationen und SKU Werte automatisch. Wenn das Key Feld leer gelassen wird, wird ein zu deinem System passender eingebauter Key nach der Erkennung automatisch angezeigt.</read_3>
   <read_4>4. Der Parameter für die stille Ausührung ist /Q. Nachdem die stille Ausführung abgeschlossen ist wird ein Logfile erstellt: C:\W10D.log</read_4>
   <read_5>5. Rechts-Klick Menü zur Auswahl des Produktkeys verfügbar.</read_5>
-  <read_6>6. Für die ProfessionalEducation(N) Edition, geben Sie den SKU-Wert 164(165) manuell ein oder wählen Sie ihn im Rechtsklick-Menü aus. Der automatische Erkennungswert könnte 48 sein.</read_6>
+  <read_6>6. Gespeicherte Tickets befinden sich in C:\GenuineTicket.xml, Wenn Sie das System neu installieren, legen Sie es in das folgende Verzeichnis (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) und starten Sie Ihren Computer neu.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥> Installiere Key: </info_安装密钥>
   <info_添加注册表> Füge registry-Key hinzu...</info_添加注册表>
   <info_获取门票> Führe GatherOsState.exe aus...</info_获取门票>
+  <info_保存门票>Speichern Sie das Ticket in C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Lösche Registry-Key...</info_删除注册表>
   <info_应用门票> Wende GenuineTicket.xml an...</info_应用门票>
   <info_激活系统> Aktiviere System...</info_激活系统>

@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Română</语言名称>
+  <!--罗马尼亚语-->
 
   <!-- 标题 -->
   <标题_错误>Eroare</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>Status WU</main_WU状态>
   <main_安装密钥>Instalare cheie</main_安装密钥>
   <main_界面语言>Limbă</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>VERIFICĂ</main_检测>
   <main_进度详情>Detalii progres</main_进度详情>
   <main_激活>ACTIVARE</main_激活>
@@ -43,8 +45,7 @@
   <read_3>3.Butonul VERIFICĂ detectează informațiile despre sistem și valorile SKU. Dacă cheia nu este completată, cheia încorporată, corespunzătoare versiunii sistemului dvs. va fi afișată automat, după detectare.</read_3>
   <read_4>4.Prametrii de execuție silențioasă sunt /Q. După terminarea executării silențioase, va fi generat un fișier de tip log. C:\W10D.log</read_4>
   <read_5>5.Faceți clic dreapta pt. a selecta cheia.</read_5>
-  <read_6>6.Pentru ediția ProfessionalEducation(N), introduceți manual valoarea SKU 164(165) sau selectați-o în meniul cu clic dreapta. Valoarea de detecție automată ar putea fi 48.</read_6>
-
+  <read_6>6.Bilete salvate în C:\GenuineTicket.xml, Când reinstalați ulterior sistemul, plasați-l în următorul director (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) și reporniți computerul.</read_6>
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
   <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
@@ -70,6 +71,7 @@
   <info_安装密钥> Instalare cheie: </info_安装密钥>
   <info_添加注册表> Adăugare registrii cheie...</info_添加注册表>
   <info_获取门票> Executare GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Salvați biletul la C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Ștergere registrii cheie...</info_删除注册表>
   <info_应用门票> Aplicare GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Activare...</info_激活系统>

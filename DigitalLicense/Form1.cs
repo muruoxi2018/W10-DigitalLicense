@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using LanguageLibrary;
 using System.Drawing;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace DigitalLicense
 {
@@ -131,6 +132,7 @@ namespace DigitalLicense
 
             //添加鼠标右键事件
             AddMenuEvents(contextMenuStrip1);
+            saveTicketCheckBox.Checked = true;
 
             //如果是WIN10
             if (Environment.OSVersion.ToString().Contains("10.0."))
@@ -210,6 +212,7 @@ namespace DigitalLicense
             install_KEY_Button1.Text = Language.Default.main_安装密钥;
             check_Button.Text = Language.Default.main_检测;
             lang_Label.Text = Language.Default.main_界面语言;
+            saveTicketCheckBox.Text = Language.Default.main_保存门票;
             groupBox2.Text = Language.Default.main_进度详情;
             activeButton.Text = Language.Default.main_激活;
             exitButton.Text = Language.Default.main_退出;
@@ -224,7 +227,7 @@ namespace DigitalLicense
                                   + Language.Default.read_3 + "\r\n\r\n"
                                   + Language.Default.read_4 + "\r\n\r\n"
                                   + Language.Default.read_5 + "\r\n\r\n"
-                                  + Language.Default.read_6 + "\r\n"
+                                  + Language.Default.read_6 + "\r\n" 
                                   );
             }
 
@@ -314,7 +317,12 @@ namespace DigitalLicense
                     0,
                     0,
                     out SKU);
-                sku_textBox.Text = SKU.ToString();                
+                if (OsName == "ProfessionalEducation")
+                    sku_textBox.Text = "164";
+                else if (OsName == "ProfessionalEducationN")
+                    sku_textBox.Text = "165";
+                else
+                    sku_textBox.Text = SKU.ToString();
 
                 //将获取的值显示到listView1
                 //1.产品
@@ -547,7 +555,7 @@ namespace DigitalLicense
         {
             try
             {
-                Stream exeStream = this.GetType().Assembly.GetManifestResourceStream("DigitalLicense.agc.exe");
+                Stream exeStream = this.GetType().Assembly.GetManifestResourceStream("DigitalLicense.gatherosstate.exe");
                 byte[] bs = new byte[exeStream.Length];
                 exeStream.Read(bs, 0, bs.Length);
 
@@ -570,7 +578,7 @@ namespace DigitalLicense
                     bs.SetValue((Byte)0x30, 160620);
                 }
 
-                Stream dllStream = this.GetType().Assembly.GetManifestResourceStream("DigitalLicense.agc.dll");
+                Stream dllStream = this.GetType().Assembly.GetManifestResourceStream("DigitalLicense.slc.dll");
                 byte[] bs1 = new byte[dllStream.Length];
                 dllStream.Read(bs1, 0, bs1.Length);
 
@@ -578,8 +586,8 @@ namespace DigitalLicense
                 //byte[] bs2 = new byte[clipupStream.Length];
                 //clipupStream.Read(bs2, 0, bs2.Length);
 
-                FileStream fs = new FileStream(TempPath + "\\agc.exe", FileMode.Create, FileAccess.ReadWrite);
-                FileStream fs1 = new FileStream(TempPath + "\\agc.dll", FileMode.Create, FileAccess.ReadWrite);
+                FileStream fs = new FileStream(TempPath + "\\gatherosstate.exe", FileMode.Create, FileAccess.ReadWrite);
+                FileStream fs1 = new FileStream(TempPath + "\\slc.dll", FileMode.Create, FileAccess.ReadWrite);
                 //FileStream fs2 = new FileStream(TempPath + "\\ClipUp.exe", FileMode.Create, FileAccess.ReadWrite);
                 fs.Write(bs, 0, bs.Length);
                 fs1.Write(bs1, 0, bs1.Length);
@@ -672,24 +680,31 @@ namespace DigitalLicense
             register.WriteRegeditKey("Security-SPP-GenuineLocalStatus", 1, Register.RegValueKind.DWord);
 
             if (Environment.Is64BitOperatingSystem)
-                cmdout = await RunCMD("cmd.exe", " /c reg add \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\agc.exe" + " /d \"^ WIN7RTM\" /f /reg:64");
+                cmdout = await RunCMD("cmd.exe", " /c reg add \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\gatherosstate.exe" + " /d \"^ WIN7RTM\" /f /reg:64");
             else
-                cmdout = await RunCMD("cmd.exe", " /c reg add \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\agc.exe" + " /d \"^ WIN7RTM\" /f");
+                cmdout = await RunCMD("cmd.exe", " /c reg add \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\gatherosstate.exe" + " /d \"^ WIN7RTM\" /f");
             progressBar1.Value = 60;
             //获取门票
             textBox1.AppendText(TimeNow() + " " + Language.Default.info_获取门票 + "\r\n");
-            cmdout = await RunCMD("cmd.exe", " /c " + TempPath + "\\agc.exe");
+            cmdout = await RunCMD("cmd.exe", " /c " + TempPath + "\\gatherosstate.exe");
             progressBar1.Value = 75;
+            await Sleep(3000);
+            //保存门票
+            if (saveTicketCheckBox.Checked == true)
+            {
+                textBox1.AppendText(TimeNow() + " " + Language.Default.info_保存门票 + "\r\n");
+                if (File.Exists(Path.GetFullPath(TempPath + "\\GenuineTicket.xml")))
+                    File.Copy(Path.GetFullPath(TempPath + "\\GenuineTicket.xml"), "C:\\GenuineTicket.xml", true);
+            }
             //删除注册表项
             textBox1.AppendText(TimeNow() + " " + Language.Default.info_删除注册表 + "\r\n\r\n");
             cmdout = await RunCMD("cmd.exe", " /c reg delete \"HKLM\\SYSTEM\\Tokens\" /f");
             if (Environment.Is64BitOperatingSystem)
-                cmdout = await RunCMD("cmd.exe", " /c reg delete \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\agc.exe" + " /f /reg:64");
+                cmdout = await RunCMD("cmd.exe", " /c reg delete \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\gatherosstate.exe" + " /f /reg:64");
             else
-                cmdout = await RunCMD("cmd.exe", " /c reg delete \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\agc.exe" + " /f");
-
-            //应用门票
-            textBox1.AppendText(TimeNow() + " " + Language.Default.info_应用门票 + "\r\n");
+                cmdout = await RunCMD("cmd.exe", " /c reg delete \"HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" /v " + TempPath + "\\gatherosstate.exe" + " /f");
+                //应用门票
+                textBox1.AppendText(TimeNow() + " " + Language.Default.info_应用门票 + "\r\n");
             cmdout = await RunCMD("cmd.exe", " /c " + windir + "\\ClipUp.exe -v -o -altto " + TempPath);
             textBox1.AppendText(cmdout);
             textBox1.AppendText("+++++++++++++++++++++++++++++++++++++++++++++\r\n");
@@ -718,10 +733,10 @@ namespace DigitalLicense
             //刷新系统信息
             await GetOSInfo();
             textBox1.AppendText(TimeNow() + " " + Language.Default.info_删除临时文件 + "\r\n");
-            if (File.Exists(Path.GetFullPath(TempPath + "\\agc.exe")))
-                File.Delete(Path.GetFullPath(TempPath + "\\agc.exe"));
-            if (File.Exists(Path.GetFullPath(TempPath + "\\agc.dll")))
-                File.Delete(Path.GetFullPath(TempPath + "\\agc.dll"));
+            if (File.Exists(Path.GetFullPath(TempPath + "\\gatherosstate.exe")))
+                File.Delete(Path.GetFullPath(TempPath + "\\gatherosstate.exe"));
+            if (File.Exists(Path.GetFullPath(TempPath + "\\slc.dll")))
+                File.Delete(Path.GetFullPath(TempPath + "\\slc.dll"));
             //if (File.Exists(Path.GetFullPath(TempPath + "\\ClipUp.exe")))
             //    File.Delete(Path.GetFullPath(TempPath + "\\ClipUp.exe"));
 
@@ -735,6 +750,15 @@ namespace DigitalLicense
                 WriteLog(textBox1.Text);
                 this.Close();
             }
+        }
+
+        public Task Sleep(int time)
+
+        {
+            return Task.Run(() =>
+            {
+                Thread.Sleep(time);
+            });
         }
         #endregion
 
@@ -811,7 +835,6 @@ namespace DigitalLicense
             await GetOSInfo();
             Refresh();
         }
-
         private void Form1_MouseEnter(object sender, EventArgs e)
         {
             this.Focus();
@@ -836,6 +859,5 @@ namespace DigitalLicense
          out int pdwReturnedProductType);
 
         #endregion
-
     }
 }

@@ -24,6 +24,7 @@
   <main_WU状态>WU状态</main_WU状态>
   <main_安装密钥>安装密钥</main_安装密钥>
   <main_界面语言>界面语言</main_界面语言>
+  <main_保存门票>保存门票</main_保存门票>
   <main_检测>检测</main_检测>
   <main_进度详情>进度详情</main_进度详情>
   <main_激活>激活</main_激活>
@@ -43,7 +44,7 @@
   <read_3>3.点击[检测]按钮，检测系统信息和SKU值，如果密钥文本框留空，检测后会自动显示对应你系统版本的内置密钥。</read_3>
   <read_4>4.静默执行参数 /Q，静默执行完成后，会生成日志文件 C:\激活日志.log</read_4>
   <read_5>5.添加选择产品密钥的右键菜单。</read_5>
-  <read_6>6.对于ProfessionalEducation(N)版本，请手动输入SKU值164(165)，自动检测的值可能是48。</read_6>
+  <read_6>6.保存的门票在C:\GenuineTicket.xml，在你下一次重装系统的时候，把它放到以下目录(C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\)，然后重启电脑。</read_6>
 
   <!--网站链接-->
   <main_link_text>www.52pojie.cn</main_link_text>
@@ -70,6 +71,7 @@
   <info_安装密钥> 正在安装密钥：</info_安装密钥>
   <info_添加注册表> 正在添加注册表项...</info_添加注册表>
   <info_获取门票> 正在执行 GatherOsState.exe 获取门票...</info_获取门票>
+  <info_保存门票>保存门票到 C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> 正在删除注册表项...</info_删除注册表>
   <info_应用门票> 正在应用门票 GenuineTicket.xml...</info_应用门票>
   <info_激活系统> 正在激活系统...</info_激活系统>

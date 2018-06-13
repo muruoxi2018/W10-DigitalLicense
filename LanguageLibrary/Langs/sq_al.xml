@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Shqip</语言名称>
+  <!--阿尔巴尼亚语-->
 
   <!-- 标题 -->
   <标题_错误>Gabim</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>WU Status</main_WU状态>
   <main_安装密钥>Instalo-KEY</main_安装密钥>
   <main_界面语言>Gjuha</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>KONTROLLO</main_检测>
   <main_进度详情>Detajet e zhvillimit</main_进度详情>
   <main_激活>AKTIVIZO</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3.Butoni KONTROLLO zbulon informacionin e sistemit dhe vlerat SKU. Nëse kutia e tekstit KEY është lënë bosh, KEY-i i integruar që korrespondon me versionin e sistemit do të shfaqet automatikisht pas zbulimit.</read_3>
   <read_4>4.Parametrat e ekzekutimit të heshtur janë /Q. Pasi ekzekutimi i heshtur është i plotë, do të gjenerohet një skedar log. C:\W10D.log</read_4>
   <read_5>5.Shtoni menunë e djathtë të klikimit për të zgjedhur produktin KEY.</read_5>
-  <read_6>6.Për Edicionin e ProfessionalEducation(N), Ju lutemi futni manualisht vlerën SKU 164(165) ose zgjidhni atë në menunë e klikimit të djathtë. Vlera automatike e zbulimit mund të jetë 48.</read_6>
+  <read_6>6.Bileta e ruajtur në C:\GenuineTicket.xml. Kur e instaloni sistemin në herën tjetër, vendoseni në dosjen e mëposhtme (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), Pastaj rifilloni kompjuterin.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥> Duke instaluar key: </info_安装密钥>
   <info_添加注册表> Duke shtuar registry key...</info_添加注册表>
   <info_获取门票> Duke ekzekutuar GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Ruaj biletën në C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Duke fshire registry key...</info_删除注册表>
   <info_应用门票> Duke aplikuar GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Aktivizimi i sistemit...</info_激活系统>

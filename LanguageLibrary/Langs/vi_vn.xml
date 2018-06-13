@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Tiếng Việt</语言名称>
+  <!--越南语-->
 
   <!-- 标题 -->
   <标题_错误>Lỗi</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>Trạng thái WU</main_WU状态>
   <main_安装密钥>CÀIĐẶT-KEY</main_安装密钥>
   <main_界面语言>Ngôn ngữ</main_界面语言>
+  <main_保存门票>Lưu vé</main_保存门票>
   <main_检测>KIỂM TRA</main_检测>
   <main_进度详情>Chi tiết tiến trình</main_进度详情>
   <main_激活>KÍCH HOẠT</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3.Nếu hộp văn bản KEY được để trống, nhấn vào nút KIỂM TRA sẽ phát hiện thông tin hệ thống và giá trị SKU. Phím tích hợp KEY tương ứng với phiên bản hệ thống của bạn sẽ tự động được hiển thị sau khi phát hiện.</read_3>
   <read_4>4.Thông số thực hiện ngầm là /Q. Sau khi hoàn tất thực hiện ngầm, một tệp nhật ký sẽ được tạo. C:\W10D.log</read_4>
   <read_5>5.Thêm menu chuột phải để chọn KEY của sản phẩm.</read_5>
-  <read_6>6.Đối với phiên bản ProfessionalEducation (N), vui lòng nhập giá trị SKU 164 (165) theo cách thủ công hoặc chọn nó trong menu chuột phải. Giá trị phát hiện tự động có thể là 48.</read_6>
+  <read_6>6.Vé đã lưu tại C:\GenuineTicket.xml. Khi bạn cài đặt lại hệ thống vào lần sau, hãy đặt nó vào thư mục sau (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\), Sau đó khởi động lại máy tính.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥> Đang cài đặt key: </info_安装密钥>
   <info_添加注册表> Đang thêm key đăng ký...</info_添加注册表>
   <info_获取门票> Đang thực thi GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Vé được lưu vào  C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Đang xóa key đăng ký...</info_删除注册表>
   <info_应用门票> Đang áp dụng tệp tin GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Đang kích hoạt hệ thống...</info_激活系统>

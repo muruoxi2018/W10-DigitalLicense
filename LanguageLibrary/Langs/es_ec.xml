@@ -2,6 +2,7 @@
 <Language>
   <!-- 语言名称 -->
   <语言名称>Español</语言名称>
+  <!--西班牙语-->
 
   <!-- 标题 -->
   <标题_错误>Error</标题_错误>
@@ -24,6 +25,7 @@
   <main_WU状态>Estado de WU</main_WU状态>
   <main_安装密钥>Instalar-Clave</main_安装密钥>
   <main_界面语言>Idioma</main_界面语言>
+  <main_保存门票>Save Ticket</main_保存门票>
   <main_检测>VERIFICAR</main_检测>
   <main_进度详情>Detalles del progreso</main_进度详情>
   <main_激活>ACTIVAR</main_激活>
@@ -43,7 +45,7 @@
   <read_3>3.El botón de verificar Detecta la información del sistema y el valor SKU. Si el cuadro de texto CLAVE se deja en blanco, la CLAVE incorporada correspondiente a su versión del sistema se mostrará automáticamente después de la detección.</read_3>
   <read_4>4.Los parámetros de ejecución silenciosa son /Q. Después de completar la ejecución silenciosa, se generará un archivo de registro en. C:\W10D.log</read_4>
   <read_5>5.Agregar menú mediante clic del botón derecho sobre la ventana Información del Sistema Operativo para seleccionar la clave del producto.</read_5>
-  <read_6>6. Para ProfessionalEducation(N) Edition, ingrese manualmente el SKU 164(165) o selecciónelo en el menú contextual. El valor de detección automática podría ser 48.</read_6>
+  <read_6>6.Los tickets guardados se encuentran en C:\GenuineTicket.xml. Cuando vuelva a instalar su sistema, colóquelo en el siguiente directorio (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\) y reinicie su computadora.</read_6>
   
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +72,7 @@
   <info_安装密钥> Instalando clave: </info_安装密钥>
   <info_添加注册表> Agregar clave de registro...</info_添加注册表>
   <info_获取门票> Ejecutando GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Guardar ticket en C:\GenuineTicket.xml</info_保存门票>
   <info_删除注册表> Eliminar clave de registro...</info_删除注册表>
   <info_应用门票> Aplicando GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Activando Sistema...</info_激活系统>

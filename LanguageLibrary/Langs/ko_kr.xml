@@ -24,6 +24,7 @@
   <main_WU状态>WU 상태</main_WU状态>
   <main_安装密钥>설치 키</main_安装密钥>
   <main_界面语言>언어</main_界面语言>
+  <main_保存门票>티켓 저장</main_保存门票>
   <main_检测>테스트</main_检测>
   <main_进度详情>진행 세부 정보</main_进度详情>
   <main_激活>활성화 </main_激活>
@@ -43,7 +44,7 @@
   <read_3>3.[테스트] 버튼을 클릭하여 시스템 정보와 SKU 값을 확인하십시오.키 텍스트 상자를 비워두면 감지 후 시스템 버전에 해당하는 내장 키가 자동으로 표시됩니다.</read_3>
   <read_4>4.무음 모드 자동으로 매개 변수 /Q, 를 실행하고 자동 실행이 완료되면 로그 파일이 생성됩니다. C:\W10D.log</read_4>
   <read_5>5.오른쪽 클릭 메뉴를 추가하여 제품 키를 선택하십시오.</read_5>
-  <read_6>6.ProfessionalEducation(N) Edition의 경우 수동으로 SKU 값 164(165)를 입력하거나 오른쪽 클릭 메뉴에서 선택하십시오. 자동으로 감지 된 값은 48입니다.</read_6>
+  <read_6>6.저장된 티켓은 C:\GenuineTicket.xml에 있습니다. 다음 번에 시스템을 다시 설치할 때 다음 디렉토리 (C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\)에 넣고 컴퓨터를 다시 시작하십시오.</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
@@ -70,6 +71,7 @@
   <info_安装密钥> 키 설치 :</info_安装密钥>
   <info_添加注册表> 레지스트리 키 추가 중 ...</info_添加注册表>
   <info_获取门票> 실행 중 GatherOsState.exe ...</info_获取门票>
+  <info_保存门票>티켓을 C:\GenuineTicket.xml에 저장하십시오.</info_保存门票>
   <info_删除注册表> 레지스트리 키 삭제 중...</info_删除注册表>
   <info_应用门票> 적용 GenuineTicket.xml...</info_应用门票>
   <info_激活系统> 시스템 활성화...</info_激活系统>
