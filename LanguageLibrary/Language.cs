@@ -13,7 +13,7 @@ namespace LanguageLibrary
         private static dynamic _default;
         public static dynamic Default { get; set; }
 
-    public static void Init(string name = "en_us")
+        public static void Init(string name = "en_us")
         {
 
             _default = new ExpandoObject();

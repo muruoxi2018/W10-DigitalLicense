@@ -23,12 +23,12 @@
   <main_部份产品密钥>Klíč produktu</main_部份产品密钥>
   <main_许可证状态>Status</main_许可证状态>
   <main_WU状态>WU Status</main_WU状态>
-  <main_安装密钥>Nainstaluj klíč</main_安装密钥>
+  <main_安装密钥>Nainstalovat klíč</main_安装密钥>
   <main_界面语言>Jazyk</main_界面语言>
-  <main_保存门票>Save Ticket</main_保存门票>
+  <main_保存门票>Uložit Ticket</main_保存门票>
   <main_检测>Kontrola</main_检测>
-  <main_进度详情>Podrobný postup pro lamičky z CZT</main_进度详情>
-  <main_激活>Aktivuj</main_激活>
+  <main_进度详情>Podrobný postup exkluzivně pro CZT</main_进度详情>
+  <main_激活>Aktivovat</main_激活>
   <main_退出>Ukončit</main_退出>
   
   <!-- 消息 -->
@@ -40,12 +40,12 @@
 
   <!-- 说明 -->
   <read_0>Čti：</read_0>
-  <read_1>1.Klikni na Aktivuj pokud chceš vytvořit digitální licenci.</read_1>
-  <read_2>2.Klikni na Nainstaluj klíč pokud chceš pouze nainstalovat generický klíč bez vygenerování digitální licence.</read_2>
-  <read_3>3.Klikni na Kontrola pokud chceš načíst informace o systému. Pokud textové pole klíče zůstane prázdné tak po kontrole se zobrazí generický klíč odpovídající nainstalované edici.</read_3>
-  <read_4>4.Pro tiché spuštění zadej parametr /Q. Po dokončení tichého spuštění bude vytvořen soubor s logem. C:\W10D.log</read_4>
+  <read_1>1.Klikni na Aktivovat pro automatickou aktivaci pomocí digitální licence.</read_1>
+  <read_2>2.Klikni na Nainstalovat klíč pro nainstalování generického klíče bez vygenerování digitální licence.</read_2>
+  <read_3>3.Klikni na Kontrola pro načtení informací o systému. Pokud textové pole klíče zůstane prázdné tak po kontrole se zobrazí generický klíč odpovídající nainstalované edici.</read_3>
+  <read_4>4.Pro tiché spuštění spusti s parametrem /Q. Po dokončení tichého spuštění se vytvoří soubor s logem uložen jako C:\W10D.log</read_4>
   <read_5>5.Pravým tlačítkem na myši vybereš generický klíč dostupných edic.</read_5>
-  <read_6>6.Uložené vstupenky jsou v C:\GenuineTicket.xml</read_6>
+  <read_6>6.Uložené tickety jsou v C:\GenuineTicket.xml</read_6>
  
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
