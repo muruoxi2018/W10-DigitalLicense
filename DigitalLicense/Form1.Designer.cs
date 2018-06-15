@@ -97,6 +97,7 @@
             // saveTicketCheckBox
             // 
             this.saveTicketCheckBox.AutoSize = true;
+            this.saveTicketCheckBox.ForeColor = System.Drawing.Color.DodgerBlue;
             this.saveTicketCheckBox.Location = new System.Drawing.Point(6, 182);
             this.saveTicketCheckBox.Name = "saveTicketCheckBox";
             this.saveTicketCheckBox.Size = new System.Drawing.Size(75, 15);
@@ -130,7 +131,7 @@
             "Español",
             "Español (es_es)",
             "Ελληνικά",
-            "Français",
+            "Français (France)",
             "Italiano",
             "Nederlands",
             "Português",

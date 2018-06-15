@@ -1,83 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Language>
   <!-- 语言名称 -->
-  <语言名称>Français</语言名称>
+  <语言名称>Français (France)</语言名称>
 
   <!-- 标题 -->
   <标题_错误>Erreur</标题_错误>
   <标题_信息>Information</标题_信息>
-  <标题_警告>Avertissement</标题_警告>
-  <标题_完成>Achèvement</标题_完成>
+  <标题_警告>Attention</标题_警告>
+  <标题_完成>Terminé</标题_完成>
   <标题_成功>Succès</标题_成功>
 
 
   <!-- 主窗口 -->
-  <main_窗口名_在线>W10 Digital License C# [Online]</main_窗口名_在线>
-  <main_窗口名_离线>W10 Digital License C# [Offline]</main_窗口名_离线>
-  <main_系统信息>Informations sur le système</main_系统信息>
+  <main_窗口名_在线>W10 Digital License C# [En ligne]</main_窗口名_在线>
+  <main_窗口名_离线>W10 Digital License C# [Hors ligne]</main_窗口名_离线>
+  <main_系统信息>Informations sur le système d'exploitation</main_系统信息>
   <main_产品名称>Nom du produit</main_产品名称>
   <main_类型>Types</main_类型>
   <main_描述>Description</main_描述>
-  <main_激活ID>ID d'activation</main_激活ID>
-  <main_部份产品密钥>Clé de produit</main_部份产品密钥>
+  <main_激活ID>ID de la licence</main_激活ID>
+  <main_部份产品密钥>Clé partielle</main_部份产品密钥>
   <main_许可证状态>Statut de la licence</main_许可证状态>
-  <main_WU状态>WU Status</main_WU状态>
-  <main_安装密钥>Clé d'installation</main_安装密钥>
+  <main_WU状态>Statut WU</main_WU状态>
+  <main_安装密钥>Installer la CLÉ</main_安装密钥>
   <main_界面语言>Langue</main_界面语言>
-  <main_保存门票>Save Ticket</main_保存门票>
-  <main_检测>Test</main_检测>
+  <main_保存门票>Enregistrer&#x000A;le ticket</main_保存门票>
+  <main_检测>VÉRIFIER</main_检测>
   <main_进度详情>Détails de la progression</main_进度详情>
-  <main_激活>Activer</main_激活>
-  <main_退出>Quitter</main_退出>
+  <main_激活>ACTIVER</main_激活>
+  <main_退出>QUITTER</main_退出>
   
   <!-- 消息 -->
-  <提示_不支持>Version du système d'exploitation non prise en charge, seul Windows 10 est pris en charge.</提示_不支持>
-  <提示_无KEY>Pas de clé intégrée disponible pour cette version, s'il vous plaît personnaliser la clé!</提示_无KEY>
-  <提示_意外错误>Erreur inattendue! Message d'erreur:</提示_意外错误>
-  <提示_提取错误>Extraire les fichiers mal! Message d'erreur:</提示_提取错误>
+  <提示_不支持>Version du système d'exploitation non supporté, seul Windows 10 est supporté.</提示_不支持>
+  <提示_无KEY>Aucune clé intégrée disponible pour cette version, s'il vous plaît personnaliser la clé !</提示_无KEY>
+  <提示_意外错误>Erreur inattendue ! Message d'erreur:</提示_意外错误>
+  <提示_提取错误>Extraire des fichiers erronés ! Message d'erreur:</提示_提取错误>
   
 
   <!-- 说明 -->
-  <read_0>Instructions</read_0>
-  <read_1>1.Cliquez sur le bouton [Activer] pour activer automatiquement l'autorisation numérique.</read_1>
-  <read_2>2.Cliquez sur le bouton [Clé d'installation] pour installer la clé uniquement.</read_2>
-  <read_3>3.Cliquez sur le bouton [Test] pour vérifier les informations sur le système et les valeurs SKU. Si la zone de texte de clé est laissée vide, la clé intégrée correspondant à la version de votre système est automatiquement affichée après la détection.</read_3>
-  <read_4>4.Exécute silencieusement le paramètre /Q. Lorsque l'exécution silencieuse est terminée, un fichier journal est généré. C:\W10D.log</read_4>
-  <read_5>5.Ajoutez le menu contextuel pour sélectionner la clé de produit.</read_5>
-  <read_6>6.Les tickets sauvegardés sont dans C:\GenuineTicket.xml</read_6>
+  <read_0>Lisez-moi：</read_0>
+  <read_1>1. Cliquez sur le bouton [ACTIVER] pour activer automatiquement l'autorisation numérique.</read_1>
+  <read_2>2. Cliquez sur le bouton [Installer la CLÉ] pour installer la CLÉ uniquement.</read_2>
+  <read_3>3. Cliquez sur le bouton [VÉRIFIER] pour vérifier les informations sur le système et les valeurs SKU. Si la zone de texte de clé est laissée vide, la clé intégrée correspondant à la version de votre système est automatiquement affichée après la détection.</read_3>
+  <read_4>4. Exécuter silencieusement le paramètre /Q. Lorsque l'exécution silencieuse est terminée, un fichier journal est généré. C:\W10D.log</read_4>
+  <read_5>5. Ajouter le menu contextuel pour sélectionner la CLÉ du produit.</read_5>
+  <read_6>6. Enregistrer le ticket dans C:\GenuineTicket.xml</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
   <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
   
   <!-- 右键菜单 -->
-  <右键_选择密钥>KEY sélection</右键_选择密钥>
+  <右键_选择密钥>Sélectionner la CLÉ</右键_选择密钥>
   
 
-  <!-- 信息-->
-  <info_未授权>Sans licence</info_未授权>
+  <!-- 信息 -->
+  <info_未授权>Non autorisée</info_未授权>
   <info_已授权>Autorisé</info_已授权>
   <info_初始宽限期>Période de grâce initiale</info_初始宽限期>
-  <info_延长宽限期>Période de grâce supplémentaire</info_延长宽限期>
+  <info_延长宽限期>Délai de grâce supplémentaire</info_延长宽限期>
   <info_非正版宽限期>Période de grâce non authentique</info_非正版宽限期>
   <info_通知状态>Notification</info_通知状态>
   <info_未知>Statut inconnu</info_未知>
-  <info_WU_自动延迟>Automatique(démarrage différé)</info_WU_自动延迟>
-  <info_WU_自动>Automatique</info_WU_自动>
-  <info_WU_手动>Manuellement</info_WU_手动>
+  <info_WU_自动延迟>AUTO RETARDÉ</info_WU_自动延迟>
+  <info_WU_自动>AUTOMATIQUE</info_WU_自动>
+  <info_WU_手动>MANUEL</info_WU_手动>
   <info_WU_禁用>DÉSACTIVÉE</info_WU_禁用>
   <info_日志文件名>W10D.log</info_日志文件名>
-  <info_准备> Préparation...</info_准备>
-  <info_安装密钥> Installation de la clé:</info_安装密钥>
-  <info_添加注册表> Ajouter une clé de registre...</info_添加注册表>
-  <info_获取门票> Exécuter GatherOsState.exe ...</info_获取门票>
-  <info_保存门票>Les billets sont enregistrés dans C:\GenuineTicket.xml</info_保存门票>
-  <info_删除注册表> Suppression de la clé de registre...</info_删除注册表>
-  <info_应用门票> Appliquer GenuineTicket.xml...</info_应用门票>
+  <info_准备> Actuellement en préparation...</info_准备>
+  <info_安装密钥> Installation de la clé: </info_安装密钥>
+  <info_添加注册表> Ajouter une clé dans le registre. ..</info_添加注册表>
+  <info_获取门票> Exécution de GatherOsState.exe...</info_获取门票>
+  <info_保存门票> Enregistrer le ticket dans C:\GenuineTicket.xml</info_保存门票>
+  <info_删除注册表> Suppression de la clé dans le registre...</info_删除注册表>
+  <info_应用门票> Application de GenuineTicket.xml...</info_应用门票>
   <info_激活系统> Système d'activation...</info_激活系统>
-  <info_WU_设置手动> Définir le service Windows Update sur manuel...</info_WU_设置手动>
-  <info_WU_启动> Démarrer le service de mise à jour Windows...</info_WU_启动>
-  <info_WU_启动失败> Impossible de démarrer le service Windows Update car:</info_WU_启动失败>
+  <info_WU_设置手动> Configuration du service Windows Update en mode manuel...</info_WU_设置手动>
+  <info_WU_启动> Démarrage du service Windows Update...</info_WU_启动>
+  <info_WU_启动失败>Impossible de démarrer le service Windows Update car: </info_WU_启动失败>
   <info_删除临时文件> Suppression de fichiers temporaires...</info_删除临时文件>
   <info_完成> Terminé.</info_完成>
 
