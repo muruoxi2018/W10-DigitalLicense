@@ -87,6 +87,7 @@ namespace DigitalLicense
             LangsDic.Add("Nederlands", "nl_nl");
             LangsDic.Add("Shqip", "sq_al");
             LangsDic.Add("Deutsch", "de_de");
+            LangsDic.Add("Persian (Farsi)", "fa_ir");
         }
         #endregion
 

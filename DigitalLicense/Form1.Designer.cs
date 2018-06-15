@@ -136,6 +136,7 @@
             "Português",
             "Polish",
             "Русский RU",
+            "Persian (Farsi)",
             "Română",
             "Shqip",
             "Tiếng Việt",
