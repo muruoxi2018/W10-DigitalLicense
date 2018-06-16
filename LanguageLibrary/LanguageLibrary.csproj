@@ -64,7 +64,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="root.pfx" />
+    <Content Include="root.pfx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Langs\en_us.xml" />
