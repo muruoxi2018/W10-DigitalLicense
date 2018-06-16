@@ -32,7 +32,7 @@
   
   <!-- 消息 -->
   <提示_不支持>Versión de sistema no soportada. Sólo soporta Windows 10.</提示_不支持>
-  <提示_无KEY>¡No existe una clave disponible para esta versión. Por favor, personalice la clave!</提示_无KEY>
+  <提示_无KEY>¡No existe una clave disponible para esta versión, por favor personalice la clave!</提示_无KEY>
   <提示_意外错误>¡Error inesperado! Mensaje de error:</提示_意外错误>
   <提示_提取错误>¡Archivos extraídos erróneamente! Mensaje de error:</提示_提取错误>
   
