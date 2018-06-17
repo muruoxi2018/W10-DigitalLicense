@@ -71,8 +71,8 @@ namespace DigitalLicense
             LangsDic.Add("Bosanski", "bs_latn_ba");
             LangsDic.Add("Српски", "sr_cyrl_rs");
             LangsDic.Add("English", "en_us");
-            LangsDic.Add("Español", "es_ec");
-            LangsDic.Add("Español (es_es)", "es_es");
+            LangsDic.Add("Español (Ecuador)", "es_ec");
+            LangsDic.Add("Español (España)", "es_es");
             LangsDic.Add("Français (France)", "fr_fr");
             LangsDic.Add("Italiano", "it_it");
             LangsDic.Add("Português", "pt_br");
