@@ -142,6 +142,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Content Include="ICON.ico" />
     <Content Include="root.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -152,7 +153,6 @@
   <ItemGroup>
     <EmbeddedResource Include="slc.dll" />
     <EmbeddedResource Include="gatherosstate.exe" />
-    <Content Include="ICON.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LanguageLibrary\LanguageLibrary.csproj">

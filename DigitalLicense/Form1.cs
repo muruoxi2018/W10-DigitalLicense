@@ -259,9 +259,9 @@ namespace DigitalLicense
                 //网络是否连接
                 int i = 0;
                 if (InternetGetConnectedState(out i, 0))
-                    this.Text = Language.Default.main_窗口名_在线 + " " + soft_ver;
+                    this.Text = "      " + Language.Default.main_窗口名_在线 + " " + soft_ver;
                 else
-                    this.Text = Language.Default.main_窗口名_离线 + " " + soft_ver;
+                    this.Text = "      " + Language.Default.main_窗口名_离线 + " " + soft_ver;
 
                 Register register = new Register(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion", Register.RegDomain.LocalMachine);
 
