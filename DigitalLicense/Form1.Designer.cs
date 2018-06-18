@@ -68,28 +68,35 @@
             this.ProfessionalWorkstation = new System.Windows.Forms.ToolStripMenuItem();
             this.ProfessionalWorkstationN = new System.Windows.Forms.ToolStripMenuItem();
             this.ServerRdsh = new System.Windows.Forms.ToolStripMenuItem();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
+            this.splitContainer3.Panel2.SuspendLayout();
+            this.splitContainer3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.saveTicketCheckBox);
-            this.groupBox1.Controls.Add(this.lang_Label);
-            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.listView1);
-            this.groupBox1.Controls.Add(this.metroLabel1);
-            this.groupBox1.Controls.Add(this.metroLink1);
-            this.groupBox1.Controls.Add(this.key_textBox);
-            this.groupBox1.Controls.Add(this.install_KEY_Button1);
-            this.groupBox1.Controls.Add(this.check_Button);
-            this.groupBox1.Controls.Add(this.sku_textBox);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.groupBox1.Location = new System.Drawing.Point(23, 63);
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(409, 242);
+            this.groupBox1.Size = new System.Drawing.Size(460, 190);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "系统信息";
@@ -98,7 +105,7 @@
             // 
             this.saveTicketCheckBox.AutoSize = true;
             this.saveTicketCheckBox.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.saveTicketCheckBox.Location = new System.Drawing.Point(6, 182);
+            this.saveTicketCheckBox.Location = new System.Drawing.Point(143, 6);
             this.saveTicketCheckBox.Name = "saveTicketCheckBox";
             this.saveTicketCheckBox.Size = new System.Drawing.Size(75, 15);
             this.saveTicketCheckBox.TabIndex = 7;
@@ -108,7 +115,7 @@
             // lang_Label
             // 
             this.lang_Label.AutoSize = true;
-            this.lang_Label.Location = new System.Drawing.Point(6, 209);
+            this.lang_Label.Location = new System.Drawing.Point(3, 2);
             this.lang_Label.Name = "lang_Label";
             this.lang_Label.Size = new System.Drawing.Size(65, 19);
             this.lang_Label.TabIndex = 7;
@@ -121,31 +128,32 @@
             this.comboBox1.IntegralHeight = false;
             this.comboBox1.ItemHeight = 23;
             this.comboBox1.Items.AddRange(new object[] {
-            "简体中文",
-            "繁體中文",
             "Bosanski",
-            "Српски",
             "Čeština",
             "Deutsch",
             "English",
-            "Español (Ecuador)",
-            "Español (España)",
-            "Ελληνικά",
+            "Español",
             "Français (France)",
             "Italiano",
             "Nederlands",
-            "Português",
-            "Polish",
-            "Русский RU",
             "Persian (Farsi)",
+            "Polish",
+            "Português",
             "Română",
             "Shqip",
             "Tiếng Việt",
-            "한국어",
-            "العربية"});
-            this.comboBox1.Location = new System.Drawing.Point(94, 205);
+            "Ελληνικά",
+            "Русский RU",
+            "Српски",
+            "العربية",
+            "繁體中文",
+            "简体中文",
+            "한국어"});
+            this.comboBox1.Location = new System.Drawing.Point(3, 22);
+            this.comboBox1.MaxDropDownItems = 10;
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(134, 29);
+            this.comboBox1.Sorted = true;
             this.comboBox1.TabIndex = 7;
             this.comboBox1.UseSelectable = true;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -153,20 +161,22 @@
             // listView1
             // 
             this.listView1.BackColor = System.Drawing.Color.LemonChiffon;
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.listView1.Location = new System.Drawing.Point(6, 22);
+            this.listView1.Location = new System.Drawing.Point(3, 19);
             this.listView1.Name = "listView1";
             this.listView1.Scrollable = false;
-            this.listView1.Size = new System.Drawing.Size(397, 150);
+            this.listView1.Size = new System.Drawing.Size(454, 168);
             this.listView1.TabIndex = 9;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // metroLabel1
             // 
+            this.metroLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel1.Location = new System.Drawing.Point(234, 212);
+            this.metroLabel1.Location = new System.Drawing.Point(288, 6);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(27, 15);
             this.metroLabel1.TabIndex = 8;
@@ -176,11 +186,12 @@
             // 
             this.metroLink1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.metroLink1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.metroLink1.Location = new System.Drawing.Point(256, -8);
+            this.metroLink1.Location = new System.Drawing.Point(23, 5);
             this.metroLink1.Name = "metroLink1";
-            this.metroLink1.Size = new System.Drawing.Size(153, 24);
+            this.metroLink1.Size = new System.Drawing.Size(136, 22);
             this.metroLink1.TabIndex = 7;
-            this.metroLink1.Text = "52pojie.cn";
+            this.metroLink1.Text = "www.52pojie.cn";
+            this.metroLink1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.metroLink1.UseCustomBackColor = true;
             this.metroLink1.UseCustomForeColor = true;
             this.metroLink1.UseSelectable = true;
@@ -188,20 +199,22 @@
             // 
             // key_textBox
             // 
+            this.key_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             // 
             // 
             // 
             this.key_textBox.CustomButton.Image = null;
-            this.key_textBox.CustomButton.Location = new System.Drawing.Point(194, 1);
+            this.key_textBox.CustomButton.Location = new System.Drawing.Point(201, 2);
             this.key_textBox.CustomButton.Name = "";
-            this.key_textBox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.key_textBox.CustomButton.Size = new System.Drawing.Size(17, 17);
             this.key_textBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.key_textBox.CustomButton.TabIndex = 1;
             this.key_textBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.key_textBox.CustomButton.UseSelectable = true;
             this.key_textBox.CustomButton.Visible = false;
             this.key_textBox.Lines = new string[0];
-            this.key_textBox.Location = new System.Drawing.Point(94, 178);
+            this.key_textBox.Location = new System.Drawing.Point(143, 29);
             this.key_textBox.MaxLength = 32767;
             this.key_textBox.Name = "key_textBox";
             this.key_textBox.PasswordChar = '\0';
@@ -210,7 +223,7 @@
             this.key_textBox.SelectionLength = 0;
             this.key_textBox.SelectionStart = 0;
             this.key_textBox.ShortcutsEnabled = true;
-            this.key_textBox.Size = new System.Drawing.Size(216, 23);
+            this.key_textBox.Size = new System.Drawing.Size(221, 22);
             this.key_textBox.TabIndex = 2;
             this.key_textBox.UseSelectable = true;
             this.key_textBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -219,8 +232,9 @@
             // 
             // install_KEY_Button1
             // 
+            this.install_KEY_Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.install_KEY_Button1.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.install_KEY_Button1.Location = new System.Drawing.Point(316, 178);
+            this.install_KEY_Button1.Location = new System.Drawing.Point(370, 29);
             this.install_KEY_Button1.Name = "install_KEY_Button1";
             this.install_KEY_Button1.Size = new System.Drawing.Size(87, 22);
             this.install_KEY_Button1.TabIndex = 3;
@@ -230,8 +244,9 @@
             // 
             // check_Button
             // 
+            this.check_Button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.check_Button.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.check_Button.Location = new System.Drawing.Point(316, 209);
+            this.check_Button.Location = new System.Drawing.Point(370, 3);
             this.check_Button.Name = "check_Button";
             this.check_Button.Size = new System.Drawing.Size(87, 22);
             this.check_Button.TabIndex = 6;
@@ -241,20 +256,21 @@
             // 
             // sku_textBox
             // 
+            this.sku_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             // 
             // 
             // 
             this.sku_textBox.CustomButton.Image = null;
-            this.sku_textBox.CustomButton.Location = new System.Drawing.Point(21, 1);
+            this.sku_textBox.CustomButton.Location = new System.Drawing.Point(23, 2);
             this.sku_textBox.CustomButton.Name = "";
-            this.sku_textBox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.sku_textBox.CustomButton.Size = new System.Drawing.Size(17, 17);
             this.sku_textBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.sku_textBox.CustomButton.TabIndex = 1;
             this.sku_textBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.sku_textBox.CustomButton.UseSelectable = true;
             this.sku_textBox.CustomButton.Visible = false;
             this.sku_textBox.Lines = new string[0];
-            this.sku_textBox.Location = new System.Drawing.Point(267, 208);
+            this.sku_textBox.Location = new System.Drawing.Point(321, 3);
             this.sku_textBox.MaxLength = 32767;
             this.sku_textBox.Name = "sku_textBox";
             this.sku_textBox.PasswordChar = '\0';
@@ -263,7 +279,7 @@
             this.sku_textBox.SelectionLength = 0;
             this.sku_textBox.SelectionStart = 0;
             this.sku_textBox.ShortcutsEnabled = true;
-            this.sku_textBox.Size = new System.Drawing.Size(43, 23);
+            this.sku_textBox.Size = new System.Drawing.Size(43, 22);
             this.sku_textBox.TabIndex = 5;
             this.sku_textBox.UseSelectable = true;
             this.sku_textBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -278,10 +294,11 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox2.Location = new System.Drawing.Point(23, 311);
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(409, 234);
+            this.groupBox2.Size = new System.Drawing.Size(460, 235);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "进度详情";
@@ -294,16 +311,17 @@
             // 
             // 
             this.textBox1.CustomButton.Image = null;
-            this.textBox1.CustomButton.Location = new System.Drawing.Point(199, 1);
+            this.textBox1.CustomButton.Location = new System.Drawing.Point(242, 1);
             this.textBox1.CustomButton.Name = "";
-            this.textBox1.CustomButton.Size = new System.Drawing.Size(197, 197);
+            this.textBox1.CustomButton.Size = new System.Drawing.Size(211, 211);
             this.textBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.textBox1.CustomButton.TabIndex = 1;
             this.textBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.textBox1.CustomButton.UseSelectable = true;
             this.textBox1.CustomButton.Visible = false;
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Lines = new string[0];
-            this.textBox1.Location = new System.Drawing.Point(6, 22);
+            this.textBox1.Location = new System.Drawing.Point(3, 19);
             this.textBox1.MaxLength = 99999999;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -314,7 +332,7 @@
             this.textBox1.SelectionLength = 0;
             this.textBox1.SelectionStart = 0;
             this.textBox1.ShortcutsEnabled = true;
-            this.textBox1.Size = new System.Drawing.Size(397, 199);
+            this.textBox1.Size = new System.Drawing.Size(454, 213);
             this.textBox1.Style = MetroFramework.MetroColorStyle.Orange;
             this.textBox1.TabIndex = 0;
             this.textBox1.UseCustomBackColor = true;
@@ -326,7 +344,7 @@
             // activeButton
             // 
             this.activeButton.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.activeButton.Location = new System.Drawing.Point(23, 551);
+            this.activeButton.Location = new System.Drawing.Point(3, 3);
             this.activeButton.Name = "activeButton";
             this.activeButton.Size = new System.Drawing.Size(75, 23);
             this.activeButton.TabIndex = 6;
@@ -336,8 +354,9 @@
             // 
             // exitButton
             // 
+            this.exitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.exitButton.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.exitButton.Location = new System.Drawing.Point(357, 551);
+            this.exitButton.Location = new System.Drawing.Point(382, 3);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(75, 23);
             this.exitButton.TabIndex = 0;
@@ -347,9 +366,11 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(104, 551);
+            this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar1.Location = new System.Drawing.Point(84, 3);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(247, 23);
+            this.progressBar1.Size = new System.Drawing.Size(292, 23);
             this.progressBar1.TabIndex = 0;
             // 
             // contextMenuStrip1
@@ -499,34 +520,105 @@
             this.ServerRdsh.Size = new System.Drawing.Size(228, 22);
             this.ServerRdsh.Text = "ServerRdsh";
             // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(20, 60);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.splitContainer2);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.splitContainer3);
+            this.splitContainer1.Size = new System.Drawing.Size(460, 520);
+            this.splitContainer1.SplitterDistance = 248;
+            this.splitContainer1.TabIndex = 7;
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.groupBox1);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.saveTicketCheckBox);
+            this.splitContainer2.Panel2.Controls.Add(this.install_KEY_Button1);
+            this.splitContainer2.Panel2.Controls.Add(this.lang_Label);
+            this.splitContainer2.Panel2.Controls.Add(this.sku_textBox);
+            this.splitContainer2.Panel2.Controls.Add(this.comboBox1);
+            this.splitContainer2.Panel2.Controls.Add(this.check_Button);
+            this.splitContainer2.Panel2.Controls.Add(this.key_textBox);
+            this.splitContainer2.Panel2.Controls.Add(this.metroLabel1);
+            this.splitContainer2.Size = new System.Drawing.Size(460, 248);
+            this.splitContainer2.SplitterDistance = 190;
+            this.splitContainer2.TabIndex = 0;
+            // 
+            // splitContainer3
+            // 
+            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer3.Name = "splitContainer3";
+            this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer3.Panel1
+            // 
+            this.splitContainer3.Panel1.Controls.Add(this.groupBox2);
+            // 
+            // splitContainer3.Panel2
+            // 
+            this.splitContainer3.Panel2.Controls.Add(this.progressBar1);
+            this.splitContainer3.Panel2.Controls.Add(this.activeButton);
+            this.splitContainer3.Panel2.Controls.Add(this.exitButton);
+            this.splitContainer3.Size = new System.Drawing.Size(460, 268);
+            this.splitContainer3.SplitterDistance = 235;
+            this.splitContainer3.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BorderStyle = MetroFramework.Forms.MetroFormBorderStyle.FixedSingle;
-            this.ClientSize = new System.Drawing.Size(455, 587);
+            this.ClientSize = new System.Drawing.Size(500, 600);
             this.ContextMenuStrip = this.contextMenuStrip1;
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.exitButton);
-            this.Controls.Add(this.activeButton);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.metroLink1);
+            this.Controls.Add(this.splitContainer1);
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ForeColor = System.Drawing.Color.DodgerBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Opacity = 0.9D;
-            this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Orange;
             this.Text = "W10 数字许可 C# [在线]";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.MouseEnter += new System.EventHandler(this.Form1_MouseEnter);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.contextMenuStrip1.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            this.splitContainer2.Panel1.ResumeLayout(false);
+            this.splitContainer2.Panel2.ResumeLayout(false);
+            this.splitContainer2.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
+            this.splitContainer2.ResumeLayout(false);
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -571,6 +663,9 @@
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ToolStripMenuItem ServerRdsh;
         private MetroFramework.Controls.MetroCheckBox saveTicketCheckBox;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.SplitContainer splitContainer2;
+        private System.Windows.Forms.SplitContainer splitContainer3;
     }
 }
 

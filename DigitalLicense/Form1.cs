@@ -30,7 +30,7 @@ namespace DigitalLicense
         public string ProductStatus { get; set; }
         public string WUStatus { get; set; }
 
-        public string soft_ver = "v2.7.9";
+        public string soft_ver = "v2.8.0";
 
         public string cmdout;
 
@@ -71,8 +71,7 @@ namespace DigitalLicense
             LangsDic.Add("Bosanski", "bs_latn_ba");
             LangsDic.Add("Српски", "sr_cyrl_rs");
             LangsDic.Add("English", "en_us");
-            LangsDic.Add("Español (Ecuador)", "es_ec");
-            LangsDic.Add("Español (España)", "es_es");
+            LangsDic.Add("Español", "es_es");
             LangsDic.Add("Français (France)", "fr_fr");
             LangsDic.Add("Italiano", "it_it");
             LangsDic.Add("Português", "pt_br");
@@ -99,7 +98,10 @@ namespace DigitalLicense
             var currentLang = CultureInfo.CurrentCulture.ToString().ToLower().Replace("-", "_");
             if (!Language.GetLangNames().ContainsValue(currentLang))
             {
-                currentLang = "en_us";
+                if (currentLang.Contains("es_"))
+                    currentLang = "es_es";
+                else
+                    currentLang = "en_us";
             }
           
             Language.Init();
@@ -114,7 +116,17 @@ namespace DigitalLicense
                 //RunCMD("cmd.exe", " /c reg add \"HKCU\\SOFTWARE\\W10DigitalLicense\" /v " + "LangSetting" + " /d " + currentLang + " /f");
             }
             else
-                Language.Set(register.ReadRegeditKey("LangSetting").ToString());
+            {
+                if (!Language.GetLangNames().ContainsValue(register.ReadRegeditKey("LangSetting").ToString()))
+                {
+                    Language.Set(currentLang);
+                    register.WriteRegeditKey("LangSetting", currentLang);
+                }
+                else
+                {
+                    Language.Set(register.ReadRegeditKey("LangSetting").ToString());
+                }                  
+            }
 
             //版本密钥字典初始
             EditionDic_init();
@@ -131,6 +143,10 @@ namespace DigitalLicense
             LangsDic_init();
             comboBox1.SelectedItem = Language.Default.语言名称;
 
+            splitContainer2.IsSplitterFixed = true;
+            splitContainer2.FixedPanel = FixedPanel.Panel2;
+            splitContainer3.IsSplitterFixed = true;
+            splitContainer3.FixedPanel = FixedPanel.Panel2;
             //添加鼠标右键事件
             AddMenuEvents(contextMenuStrip1);
 
@@ -190,8 +206,8 @@ namespace DigitalLicense
             }
 
             listView1.Items.Clear();
-            listView1.Columns.Add("Name", 120, HorizontalAlignment.Left);
-            listView1.Columns.Add("Value", 263, HorizontalAlignment.Left);
+            listView1.Columns.Add("Name", 170, HorizontalAlignment.Left);
+            listView1.Columns.Add("Value", 255, HorizontalAlignment.Left);
             listView1.BeginUpdate();
             for (int i = 0; i < 7; i++)
             {
@@ -839,6 +855,13 @@ namespace DigitalLicense
         {
             this.Focus();
         }
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            splitContainer2.IsSplitterFixed = true;
+            splitContainer2.FixedPanel = FixedPanel.Panel2;
+            splitContainer3.IsSplitterFixed = true;
+            splitContainer3.FixedPanel = FixedPanel.Panel2;
+        }
 
         #region DLL调用
 
@@ -859,5 +882,6 @@ namespace DigitalLicense
          out int pdwReturnedProductType);
 
         #endregion
+
     }
 }
