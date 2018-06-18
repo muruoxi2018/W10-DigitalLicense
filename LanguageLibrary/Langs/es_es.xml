@@ -41,10 +41,10 @@
   <read_0>Instrucciones:</read_0>
   <read_1>1. Clic en el botón ACTIVAR para activar automáticamente la licencia digital.</read_1>
   <read_2>2. Clic en el botón Instalar-CLAVE. Se instalará la clave, pero no se activará.</read_2>
-  <read_3>3. El botón COMPROBAR detecta la información del sistema y los valores SKU. Si el cuadro de texto CLAVE está en blanco, la CLAVE incorporada correspondiente a su versión del sistema se mostrará automáticamente después de la detección.</read_3>
+  <read_3>3. El botón COMPROBAR detecta la información del sistema y los valores SKU. Si el cuadro de texto CLAVE está en blanco, la CLAVE será incorporada correspondiente a su versión del sistema se mostrará automáticamente después de la detección.</read_3>
   <read_4>4. El parámetro de ejecución silenciosa es: /Q. Una vez finalizada la ejecución silenciosa, se generará un archivo de registro. C:\10D.log</read_4>
   <read_5>5. Añadido al menú contextual para seleccionar la CLAVE de producto.</read_5>
-  <read_6>6. Los tickets guardados se encuentran en C:\GenuineTicket.xml</read_6>
+  <read_6>6. El ticket guardado se encuentra en C:\GenuineTicket.xml</read_6>
 
   <!--网站链接-->
   <main_link_text>NsaneForums.com</main_link_text>
