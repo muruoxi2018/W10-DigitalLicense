@@ -190,7 +190,7 @@
             this.metroLink1.ForeColor = System.Drawing.Color.DarkOrange;
             this.metroLink1.Location = new System.Drawing.Point(65, 5);
             this.metroLink1.Name = "metroLink1";
-            this.metroLink1.Size = new System.Drawing.Size(136, 22);
+            this.metroLink1.Size = new System.Drawing.Size(110, 22);
             this.metroLink1.TabIndex = 7;
             this.metroLink1.Text = "www.52pojie.cn";
             this.metroLink1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
