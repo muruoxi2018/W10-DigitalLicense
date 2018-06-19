@@ -855,13 +855,7 @@ namespace DigitalLicense
         {
             this.Focus();
         }
-        private void Form1_Resize(object sender, EventArgs e)
-        {
-            splitContainer2.IsSplitterFixed = true;
-            splitContainer2.FixedPanel = FixedPanel.Panel2;
-            splitContainer3.IsSplitterFixed = true;
-            splitContainer3.FixedPanel = FixedPanel.Panel2;
-        }
+
 
         #region DLL调用
 
