@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language>
+  <!-- 语言名称 -->
+  <语言名称>Magyar</语言名称>
+  <!--匈牙利语-->
+
+  <!-- 标题 -->
+  <标题_错误>Hiba</标题_错误>
+  <标题_信息>Információ</标题_信息>
+  <标题_警告>Figyelem</标题_警告>
+  <标题_完成>Kész</标题_完成>
+  <标题_成功>Sikeres</标题_成功>
+
+
+  <!-- 主窗口 -->
+  <main_窗口名_在线>W10 Digital License C# [Online]</main_窗口名_在线>
+  <main_窗口名_离线>W10 Digital License C# [Offline]</main_窗口名_离线>
+  <main_系统信息>OS Információ</main_系统信息>
+  <main_产品名称>Termék</main_产品名称>
+  <main_类型>Architektura</main_类型>
+  <main_描述>Leírás</main_描述>
+  <main_激活ID>Licencazonosító</main_激活ID>
+  <main_部份产品密钥>Részleges kulcs</main_部份产品密钥>
+  <main_许可证状态>Állapot</main_许可证状态>
+  <main_WU状态>WindowsUpdate állapota</main_WU状态>
+  <main_安装密钥>Telepítési kulcs</main_安装密钥>
+  <main_界面语言>Nyelv</main_界面语言>
+  <main_保存门票>Jegy mentése</main_保存门票>
+  <main_检测>JELÖLJE BE</main_检测>
+  <main_进度详情>A haladás részletei</main_进度详情>
+  <main_激活>AKTIVÁLJA</main_激活>
+  <main_退出>KILÉPÉS</main_退出>
+  
+  <!-- 消息 -->
+  <提示_不支持>Nem támogatott operációs rendszer verzió, csak a Windows 10 támogatott.</提示_不支持>
+  <提示_无KEY>Ehhez a verzióhoz nincs beépített kulcs, kérjük szabja testre a kulcsot!</提示_无KEY>
+  <提示_意外错误>Váratlan hiba! Hiba üzenet:</提示_意外错误>
+  <提示_提取错误>A fájlok kibontása nem megfelelő! Hiba üzenet:</提示_提取错误>
+  
+
+  <!-- 说明 -->
+  <read_0>Olvass el:</read_0>
+  <read_1>1. Kattintson az Aktiválás gombra a digitális engedélyezés automatikus aktiválásához.</read_1>
+  <read_2>2. Kattintson a Telepítési - KULCS  gombra, csak a kulcs lesz telepítve, és nem aktiválódik.</read_2>
+  <read_3>3. Ellenőrző gomb felderíti a rendszerinformációkat és az SKU értékeket. Ha a KULCS szövegmező üresen marad, akkor a rendszer verziójának megfelelő beépített KULCS automatikusan megjelenik a felismerés után.</read_3>
+  <read_4>4. A csendes végrehajtás paramétere a /Q. Miután a csendes végrehajtás befejeződött, egy naplófájl keletkezik a C:\W10D.log helyen.</read_4>
+  <read_5>5. Kattintson jobb gombbal a menüpontra a termék kulcs kiválasztásához.</read_5>
+  <read_6>6. A jegy mentve a C:\GenuineTicket.xml címre.</read_6>
+
+  <!--网站链接-->
+  <main_link_text>NsaneForums.com</main_link_text>
+  <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
+  
+  <!-- 右键菜单 -->
+  <右键_选择密钥>Válassza a KULCS lehetőséget</右键_选择密钥>
+  
+
+  <!-- 信息-->
+  <info_未授权>Licenc nélküli</info_未授权>
+  <info_已授权>Licencelt</info_已授权>
+  <info_初始宽限期>Türelmi idő kezdete</info_初始宽限期>
+  <info_延长宽限期>További türelmi idő</info_延长宽限期>
+  <info_非正版宽限期>Nem valódi türelmi idő</info_非正版宽限期>
+  <info_通知状态>Bejlentés</info_通知状态>
+  <info_未知>Ismeretlen állapot</info_未知>
+  <info_WU_自动延迟>AUTOMATIKUS KÉSLELTETÉS</info_WU_自动延迟>
+  <info_WU_自动>AUTO</info_WU_自动>
+  <info_WU_手动>KÉZIKÖNYV</info_WU_手动>
+  <info_WU_禁用>TILTVA</info_WU_禁用>
+  <info_日志文件名>W10D.log</info_日志文件名>
+  <info_准备> Jelenleg készül...</info_准备>
+  <info_安装密钥> A kulcs telepítése: </info_安装密钥>
+  <info_添加注册表> Rendszerleíró kulcs hozzáadása...</info_添加注册表>
+  <info_获取门票> GatherOsState.exe futtatása...</info_获取门票>
+  <info_保存门票>A jegy mentése C:\GenuineTicket.xml</info_保存门票>
+  <info_删除注册表> A rendszerleíró kulcs törlése...</info_删除注册表>
+  <info_应用门票> GenuineTicket.xml alkalmazása...</info_应用门票>
+  <info_激活系统> Aktiváló rendszer...</info_激活系统>
+  <info_WU_设置手动> A WindowsUpdate szolgáltatás kézi beállítása...</info_WU_设置手动>
+  <info_WU_启动> A Windows Update szolgáltatás indítása...</info_WU_启动>
+  <info_WU_启动失败>A WindowsUpdate szolgáltatás nem indítható, mert: </info_WU_启动失败>
+  <info_删除临时文件> Az ideiglenes fájlok törlése...</info_删除临时文件>
+  <info_完成> Kész.</info_完成>
+
+</Language>

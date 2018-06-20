@@ -150,6 +150,7 @@
             "Español",
             "Français (France)",
             "Italiano",
+            "Magyar",
             "Nederlands",
             "Persian (Farsi)",
             "Polish",

@@ -64,6 +64,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Langs\hu_hu.xml" />
     <Content Include="root.pfx" />
   </ItemGroup>
   <ItemGroup>
