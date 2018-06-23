@@ -3,7 +3,7 @@
   <!-- 语言名称 -->
   <语言名称>Magyar</语言名称>
   <!--匈牙利语-->
-
+  
   <!-- 标题 -->
   <标题_错误>Hiba</标题_错误>
   <标题_信息>Információ</标题_信息>
@@ -17,7 +17,7 @@
   <main_窗口名_离线>W10 Digital License C# [Offline]</main_窗口名_离线>
   <main_系统信息>OS Információ</main_系统信息>
   <main_产品名称>Termék</main_产品名称>
-  <main_类型>Architektura</main_类型>
+  <main_类型>Architektúra</main_类型>
   <main_描述>Leírás</main_描述>
   <main_激活ID>Licencazonosító</main_激活ID>
   <main_部份产品密钥>Részleges kulcs</main_部份产品密钥>
@@ -61,25 +61,25 @@
   <info_初始宽限期>Türelmi idő kezdete</info_初始宽限期>
   <info_延长宽限期>További türelmi idő</info_延长宽限期>
   <info_非正版宽限期>Nem valódi türelmi idő</info_非正版宽限期>
-  <info_通知状态>Bejlentés</info_通知状态>
+  <info_通知状态>Bejelentés</info_通知状态>
   <info_未知>Ismeretlen állapot</info_未知>
   <info_WU_自动延迟>AUTOMATIKUS KÉSLELTETÉS</info_WU_自动延迟>
   <info_WU_自动>AUTO</info_WU_自动>
-  <info_WU_手动>KÉZIKÖNYV</info_WU_手动>
+  <info_WU_手动>KÉZI</info_WU_手动>
   <info_WU_禁用>TILTVA</info_WU_禁用>
   <info_日志文件名>W10D.log</info_日志文件名>
-  <info_准备> Jelenleg készül...</info_准备>
-  <info_安装密钥> A kulcs telepítése: </info_安装密钥>
-  <info_添加注册表> Rendszerleíró kulcs hozzáadása...</info_添加注册表>
-  <info_获取门票> GatherOsState.exe futtatása...</info_获取门票>
+  <info_准备>Jelenleg készül...</info_准备>
+  <info_安装密钥>A kulcs telepítése: </info_安装密钥>
+  <info_添加注册表>Rendszerleíró kulcs hozzáadása...</info_添加注册表>
+  <info_获取门票>GatherOsState.exe futtatása...</info_获取门票>
   <info_保存门票>A jegy mentése C:\GenuineTicket.xml</info_保存门票>
-  <info_删除注册表> A rendszerleíró kulcs törlése...</info_删除注册表>
-  <info_应用门票> GenuineTicket.xml alkalmazása...</info_应用门票>
-  <info_激活系统> Aktiváló rendszer...</info_激活系统>
-  <info_WU_设置手动> A WindowsUpdate szolgáltatás kézi beállítása...</info_WU_设置手动>
-  <info_WU_启动> A Windows Update szolgáltatás indítása...</info_WU_启动>
+  <info_删除注册表>A rendszerleíró kulcs törlése...</info_删除注册表>
+  <info_应用门票>GenuineTicket.xml alkalmazása...</info_应用门票>
+  <info_激活系统>Aktiváló rendszer...</info_激活系统>
+  <info_WU_设置手动>A WindowsUpdate szolgáltatás kézi beállítása...</info_WU_设置手动>
+  <info_WU_启动>A WindowsUpdate szolgáltatás indítása...</info_WU_启动>
   <info_WU_启动失败>A WindowsUpdate szolgáltatás nem indítható, mert: </info_WU_启动失败>
-  <info_删除临时文件> Az ideiglenes fájlok törlése...</info_删除临时文件>
-  <info_完成> Kész.</info_完成>
+  <info_删除临时文件>Az ideiglenes fájlok törlése...</info_删除临时文件>
+  <info_完成>Kész.</info_完成>
 
 </Language>
