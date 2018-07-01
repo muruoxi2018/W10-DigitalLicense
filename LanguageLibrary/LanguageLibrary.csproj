@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Langs\hu_hu.xml" />
+    <EmbeddedResource Include="Langs\tr_tr.xml" />
     <Content Include="root.pfx" />
   </ItemGroup>
   <ItemGroup>

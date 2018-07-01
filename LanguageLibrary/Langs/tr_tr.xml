@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language>
+  <!-- 语言名称 -->
+  <语言名称>Türkçe</语言名称>
+  <!--土耳其语-->
+
+  <!-- 标题 -->
+  <标题_错误>Hata</标题_错误>
+  <标题_信息>Bilgilendirme</标题_信息>
+  <标题_警告>Dikkat</标题_警告>
+  <标题_完成>Tamamlandı</标题_完成>
+  <标题_成功>Başarılı</标题_成功>
+
+
+  <!-- 主窗口 -->
+  <main_窗口名_在线>W10 Digital License C# [Çevrimiçi]</main_窗口名_在线>
+  <main_窗口名_离线>W10 Digital License C# [Çevrimdışı]</main_窗口名_离线>
+  <main_系统信息>Sistem Bilgisi</main_系统信息>
+  <main_产品名称>Ürün</main_产品名称>
+  <main_类型>Mimari</main_类型>
+  <main_描述>Açıklama</main_描述>
+  <main_激活ID>LisansID</main_激活ID>
+  <main_部份产品密钥>Kısmi Key</main_部份产品密钥>
+  <main_许可证状态>Durum</main_许可证状态>
+  <main_WU状态>WindowsUpdate Durumu</main_WU状态>
+  <main_安装密钥>KEY-Yükle</main_安装密钥>
+  <main_界面语言>Lisan</main_界面语言>
+  <main_保存门票>Bileti Kaydet</main_保存门票>
+  <main_检测>KONTROL ET</main_检测>
+  <main_进度详情>İlerleme ayrıntıları</main_进度详情>
+  <main_激活>AKTİF ET</main_激活>
+  <main_退出>ÇIKIŞ</main_退出>
+  
+  <!-- 消息 -->
+  <提示_不支持>Desteklenmeyen işletim sistemi, Sadece Windows 10 desteklenmektedir.</提示_不支持>
+  <提示_无KEY>Bu sürüm için yerleşik bir key yok, lütfen özel bir key girin!</提示_无KEY>
+  <提示_意外错误>Beklenmeyen Hata!Hata Mesajı:</提示_意外错误>
+  <提示_提取错误>Ayıklanan dosyalar hatalı!Hata Mesajı:</提示_提取错误>
+  
+
+  <!-- 说明 -->
+  <read_0>Beni oku:</read_0>
+  <read_1>1.Dijital aktivasyonu otomatik olarak başlatmak için AKTİF ET düğmesine basın.</read_1>
+  <read_2>2.KEY-Yükle düğmesine tıklarsanız, sadece KEY yüklenir ve etkinleştirilmez..</read_2>
+  <read_3>3.Kontrol düğmesi Sistem bilgilerini ve SKU değerlerini algılar. KEY metin kutusu boş bırakılırsa, sistem sürümüne karşılık gelen yerleşik KEY, algılandıktan sonra otomatik olarak görüntülenir.</read_3>
+  <read_4>4.Sessiz çalıştırma parametreleri /Q. Sessiz çalıştırma tamamlandıktan sonra, bir günlük dosyası oluşturulur. C:\W10D.log</read_4>
+  <read_5>5.KEY Seçmek için beyaz alana sağ tıklayın.</read_5>
+  <read_6>6.Etiket bu konuma kaydedilecek. C:\GenuineTicket.xml</read_6>
+
+  <!--网站链接-->
+  <main_link_text>NsaneForums.com</main_link_text>
+  <main_link>http://www.nsaneforums.com/topic/315047-w10-digital-license-generation-c-version-of-hwid-fork/</main_link>
+  
+  <!-- 右键菜单 -->
+  <右键_选择密钥>KEY Seç</右键_选择密钥>
+  
+
+  <!-- 信息-->
+  <info_未授权>Lisanssız</info_未授权>
+  <info_已授权>Lisanslı</info_已授权>
+  <info_初始宽限期>İlk ödemesiz dönem</info_初始宽限期>
+  <info_延长宽限期>Ek ödemesiz dönem</info_延长宽限期>
+  <info_非正版宽限期>Orjinal olmayan ödemesiz dönem</info_非正版宽限期>
+  <info_通知状态>Bilgilendirme</info_通知状态>
+  <info_未知>Belirsiz durum</info_未知>
+  <info_WU_自动延迟>OTO GECİKME</info_WU_自动延迟>
+  <info_WU_自动>OTO</info_WU_自动>
+  <info_WU_手动>MANUEL</info_WU_手动>
+  <info_WU_禁用>DEVRE DIŞI</info_WU_禁用>
+  <info_日志文件名>W10D.log</info_日志文件名>
+  <info_准备> Hazırlanıyor...</info_准备>
+  <info_安装密钥> Yüklenen key: </info_安装密钥>
+  <info_添加注册表> Kayıt defteri anahtarı ekleniyor...</info_添加注册表>
+  <info_获取门票> Çalıştırılıyor GatherOsState.exe...</info_获取门票>
+  <info_保存门票>Bilet kaydedildi = C:\GenuineTicket.xml</info_保存门票>
+  <info_删除注册表> Kayıt defteri anahtarları siliniyor...</info_删除注册表>
+  <info_应用门票> GenuineTicket.xml Uygulanıyor...</info_应用门票>
+  <info_激活系统> Sistem aktif ediliyor...</info_激活系统>
+  <info_WU_设置手动> WindowsUpdate Hizmetini manuel ayarla...</info_WU_设置手动>
+  <info_WU_启动> WindowsUpdate Hizmeti başlatılıyor...</info_WU_启动>
+  <info_WU_启动失败>WindowsUpdate Hizmeti başlatılamıyor: </info_WU_启动失败>
+  <info_删除临时文件> Geçici dosyalar siliniyor...</info_删除临时文件>
+  <info_完成> Başarılı.</info_完成>
+
+</Language>
