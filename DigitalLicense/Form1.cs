@@ -89,6 +89,7 @@ namespace DigitalLicense
             LangsDic.Add("Persian (Farsi)", "fa_ir");
             LangsDic.Add("Magyar", "hu_hu");
             LangsDic.Add("Türkçe", "tr_tr");
+            LangsDic.Add("ქართული", "ka_ge");
         }
         #endregion
 
