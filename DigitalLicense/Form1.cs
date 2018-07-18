@@ -90,6 +90,7 @@ namespace DigitalLicense
             LangsDic.Add("Magyar", "hu_hu");
             LangsDic.Add("Türkçe", "tr_tr");
             LangsDic.Add("ქართული", "ka_ge");
+            LangsDic.Add("עברית", "he_il");
         }
         #endregion
 
