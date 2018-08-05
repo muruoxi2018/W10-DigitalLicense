@@ -78,7 +78,7 @@ namespace DigitalLicense
             LangsDic.Add("Polish", "pl_pl");
             LangsDic.Add("Русский RU", "ru_ru");
             LangsDic.Add("Tiếng Việt", "vi_vn");
-            LangsDic.Add("한국어", "ko_kr");
+            LangsDic.Add("Korean", "ko_kr");
             LangsDic.Add("Ελληνικά", "el_gr");
             LangsDic.Add("العربية", "ar_ly");
             LangsDic.Add("Čeština", "cs_cz");

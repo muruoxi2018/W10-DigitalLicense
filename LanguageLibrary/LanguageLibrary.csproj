@@ -65,9 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Langs\hu_hu.xml" />
-    <EmbeddedResource Include="Langs\tr_tr.xml" />
+    <EmbeddedResource Include="Langs\tr_tr.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Langs\ka_ge.xml" />
     <EmbeddedResource Include="Langs\he_il.xml" />
+    <EmbeddedResource Include="Langs\ko_kr.xml" />
     <Content Include="root.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -77,9 +80,6 @@
     <EmbeddedResource Include="Langs\ru_ru.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Langs\ko_kr.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Langs\pt_br.xml" />

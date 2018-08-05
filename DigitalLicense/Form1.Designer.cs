@@ -150,6 +150,7 @@
             "Español",
             "Français (France)",
             "Italiano",
+            "Korean",
             "Magyar",
             "Nederlands",
             "Persian (Farsi)",
@@ -166,8 +167,7 @@
             "עברית",
             "العربية",
             "繁體中文",
-            "简体中文",
-            "한국어"});
+            "简体中文"});
             this.comboBox1.Location = new System.Drawing.Point(3, 22);
             this.comboBox1.MaxDropDownItems = 10;
             this.comboBox1.Name = "comboBox1";
